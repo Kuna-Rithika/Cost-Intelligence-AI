@@ -1,0 +1,201 @@
+task_id,task_name,team,assignee,task_type,estimated_hours,hours_spent,completed_pct,due_date,priority,penalty_inr,status
+T001,Client Deliverable - Architect Bricks-And-Clicks Ni,Beta,Frederick Randhawa,Client Deliverable,22,11.1,42.4,2026-03-31,MEDIUM,0,IN_PROGRESS
+T002,Documentation - Enable Seamless Convergence,Gamma,Chandani Dayal,Documentation,33,30.0,97.7,2026-03-31,LOW,0,IN_PROGRESS
+T003,Client Deliverable - Drive One-To-One Partnerships,Gamma,Diya Korpal,Client Deliverable,25,9.8,38.0,2026-03-31,HIGH,104752,IN_PROGRESS
+T004,Documentation - Utilize Clicks-And-Mortar User,Beta,Warjas Bhavsar,Documentation,37,13.9,31.9,2026-03-31,HIGH,242022,IN_PROGRESS
+T005,Client Deliverable - Enhance Magnetic E-Services,Beta,Ekta Sundaram,Client Deliverable,20,19.9,88.2,2026-04-02,LOW,0,IN_PROGRESS
+T006,Documentation - Transition Wireless Communitie,Delta,Maanas Seth,Documentation,33,11.8,39.7,2026-03-31,MEDIUM,0,IN_PROGRESS
+T007,Documentation - Mesh Ubiquitous Communities,Beta,Luke Modi,Documentation,29,24.2,85.2,2026-04-02,LOW,0,IN_PROGRESS
+T008,Testing - Evolve Web-Enabled Deliverable,Delta,Thomas Shere,Testing,27,18.5,67.4,2026-03-31,HIGH,219310,IN_PROGRESS
+T009,Documentation - Brand E-Business Applications,Gamma,Jagdish Mander,Documentation,36,21.7,71.6,2026-03-31,LOW,0,IN_PROGRESS
+T010,Documentation - Strategize Intuitive Convergen,Beta,Ojasvi Bhalla,Documentation,24,10.2,41.6,2026-03-31,HIGH,23224,IN_PROGRESS
+T011,Code Review - Orchestrate Distributed Mindsh,Delta,Jackson Ratti,Code Review,29,9.8,37.4,2026-03-31,LOW,0,IN_PROGRESS
+T012,Client Deliverable - Redefine Next-Generation Eyeba,Beta,Banjeet Zachariah,Client Deliverable,25,12.3,57.4,2026-04-02,HIGH,262388,IN_PROGRESS
+T013,Client Deliverable - Leverage Scalable Channels,Alpha,Urmi Khurana,Client Deliverable,8,3.6,53.0,2026-03-31,HIGH,290025,IN_PROGRESS
+T014,Code Review - Mesh Rich Mindshare,Beta,Aarnav Sridhar,Code Review,21,11.4,54.0,2026-03-31,LOW,0,IN_PROGRESS
+T015,Client Deliverable - Expedite Bleeding-Edge Technol,Gamma,Idika Barman,Client Deliverable,8,4.5,60.7,2026-04-02,HIGH,237212,IN_PROGRESS
+T016,Bug Fix - E-Enable Granular Relationship,Gamma,Brijesh Patil,Bug Fix,9,3.0,31.6,2026-03-31,MEDIUM,0,IN_PROGRESS
+T017,Documentation - Evolve Real-Time Relationships,Beta,Ryan Ben,Documentation,17,10.5,66.1,2026-03-31,HIGH,83957,IN_PROGRESS
+T018,Client Deliverable - Mesh Next-Generation Action-It,Delta,Dayita Gara,Client Deliverable,16,12.0,85.8,2026-04-02,HIGH,96705,IN_PROGRESS
+T019,Client Deliverable - Facilitate B2C Bandwidth,Delta,Amara Halder,Client Deliverable,3,2.4,81.6,2026-04-02,LOW,0,IN_PROGRESS
+T020,Client Deliverable - Innovate Compelling Action-Ite,Delta,Yashoda Chaudry,Client Deliverable,2,1.4,79.3,2026-03-31,LOW,0,IN_PROGRESS
+T021,Testing - Synergize Intuitive Paradigms,Alpha,Balhaar Butala,Testing,8,6.5,86.0,2026-03-31,HIGH,98020,IN_PROGRESS
+T022,Client Deliverable - Enable Strategic Metrics,Beta,Damini Kaur,Client Deliverable,9,4.4,48.4,2026-03-31,MEDIUM,0,IN_PROGRESS
+T023,Testing - Monetize Global Vortals,Gamma,Benjamin Ben,Testing,26,17.8,72.8,2026-03-31,HIGH,59890,IN_PROGRESS
+T024,Testing - Implement Best-Of-Breed System,Delta,Girindra Contractor,Testing,13,13.2,87.0,2026-04-03,HIGH,155946,IN_PROGRESS
+T025,Documentation - Enable Viral Metrics,Alpha,Ekanta Pall,Documentation,10,4.8,51.9,2026-03-31,LOW,0,IN_PROGRESS
+T026,Code Review - Orchestrate Impactful Niches,Beta,Fitan Morar,Code Review,11,7.5,65.8,2026-03-31,MEDIUM,0,IN_PROGRESS
+T027,Client Deliverable - Streamline Extensible Relation,Delta,Nisha Dhillon,Client Deliverable,13,8.5,64.1,2026-03-31,HIGH,90824,IN_PROGRESS
+T028,Code Review - Leverage Customized E-Commerce,Delta,Riya Narula,Code Review,10,4.5,43.1,2026-04-03,MEDIUM,0,IN_PROGRESS
+T029,Bug Fix - E-Enable Collaborative Archite,Gamma,Maanav Mammen,Bug Fix,33,15.5,39.6,2026-03-31,MEDIUM,0,IN_PROGRESS
+T030,Client Deliverable - Disintermediate Leading-Edge E,Delta,Caleb Dhar,Client Deliverable,33,19.4,59.1,2026-03-31,MEDIUM,0,IN_PROGRESS
+T031,Testing - Disintermediate Sticky Metrics,Alpha,Hema Iyer,Testing,3,2.4,85.7,2026-03-31,LOW,0,IN_PROGRESS
+T032,Feature Development - Deliver Next-Generation Info-M,Gamma,Neelima Gala,Feature Development,36,18.5,50.2,2026-03-31,MEDIUM,0,IN_PROGRESS
+T033,Testing - Deliver B2C Content,Delta,Wahab Verma,Testing,34,11.7,37.9,2026-03-31,LOW,0,IN_PROGRESS
+T034,Testing - Matrix Interactive Infrastruct,Gamma,Pahal Ahluwalia,Testing,4,3.4,83.2,2026-03-31,MEDIUM,0,IN_PROGRESS
+T035,Bug Fix - Architect Next-Generation E-Ma,Delta,Reva Samra,Bug Fix,17,8.5,50.8,2026-03-31,LOW,0,IN_PROGRESS
+T036,Bug Fix - Extend Wireless Models,Gamma,Zashil Dalal,Bug Fix,30,30.2,90.6,2026-03-31,LOW,0,IN_PROGRESS
+T037,Feature Development - Exploit Leading-Edge Communiti,Beta,Manthan Chowdhury,Feature Development,39,26.4,78.2,2026-04-02,HIGH,224482,IN_PROGRESS
+T038,Feature Development - Facilitate Cross-Platform E-Co,Beta,Neelima Om,Feature Development,15,13.1,86.4,2026-03-31,HIGH,183928,IN_PROGRESS
+T039,Code Review - Integrate Dynamic E-Commerce,Beta,Jagvi Mammen,Code Review,20,11.9,50.3,2026-03-31,MEDIUM,0,IN_PROGRESS
+T040,Feature Development - Strategize End-To-End Metrics,Alpha,Kiaan Bora,Feature Development,28,30.3,94.3,2026-03-31,MEDIUM,0,IN_PROGRESS
+T041,Documentation - Optimize User-Centric Portals,Beta,Omaja Tripathi,Documentation,10,5.4,47.5,2026-03-31,HIGH,168871,IN_PROGRESS
+T042,Client Deliverable - Deploy Impactful Synergies,Delta,Dipta Gole,Client Deliverable,11,8.1,70.4,2026-04-02,MEDIUM,0,IN_PROGRESS
+T043,Client Deliverable - Facilitate Sticky Interfaces,Delta,Widisha Zachariah,Client Deliverable,6,4.3,74.4,2026-03-31,LOW,0,IN_PROGRESS
+T044,Documentation - Engineer Innovative Deliverabl,Gamma,Garima Bail,Documentation,25,14.4,61.8,2026-03-31,MEDIUM,0,IN_PROGRESS
+T045,Documentation - Facilitate Virtual Partnership,Alpha,Yauvani Puri,Documentation,7,6.0,81.2,2026-03-31,MEDIUM,0,IN_PROGRESS
+T046,Bug Fix - Syndicate Compelling Architect,Gamma,Gaurika Dave,Bug Fix,36,23.5,57.8,2026-03-31,MEDIUM,0,IN_PROGRESS
+T047,Code Review - Utilize Magnetic Models,Delta,Hiral Banik,Code Review,22,19.7,88.0,2026-03-31,MEDIUM,0,IN_PROGRESS
+T048,Testing - Harness Open-Source Functional,Beta,Fariq Khurana,Testing,33,23.0,85.2,2026-03-31,HIGH,25380,IN_PROGRESS
+T049,Bug Fix - Productize Mission-Critical Mo,Delta,Eta Mukherjee,Bug Fix,9,8.4,95.1,2026-03-31,LOW,0,IN_PROGRESS
+T050,Client Deliverable - Implement Viral E-Markets,Alpha,Reva Sarkar,Client Deliverable,14,6.4,52.7,2026-03-31,HIGH,516528,IN_PROGRESS
+T051,Bug Fix - Brand Collaborative Action-Ite,Gamma,Arin Gola,Bug Fix,25,12.7,47.5,2026-03-31,MEDIUM,0,IN_PROGRESS
+T052,Bug Fix - Monetize Cross-Media E-Busines,Beta,Yachana Master,Bug Fix,27,19.4,73.8,2026-03-31,HIGH,122758,IN_PROGRESS
+T053,Documentation - Synergize Front-End Mindshare,Alpha,Damini Saran,Documentation,8,2.0,30.1,2026-03-31,MEDIUM,0,IN_PROGRESS
+T054,Testing - Generate Revolutionary Network,Beta,Eshana Ramaswamy,Testing,30,10.4,30.7,2026-03-31,HIGH,180131,IN_PROGRESS
+T055,Documentation - Deploy Global Web-Readiness,Delta,Raagini Randhawa,Documentation,10,6.0,63.4,2026-04-02,LOW,0,IN_PROGRESS
+T056,Bug Fix - Orchestrate 24/365 Supply-Chai,Alpha,Udyati Kumer,Bug Fix,22,10.5,55.7,2026-04-02,MEDIUM,0,IN_PROGRESS
+T057,Documentation - Iterate Turn-Key Platforms,Beta,Brinda Desai,Documentation,11,4.0,34.8,2026-03-31,HIGH,4443,IN_PROGRESS
+T058,Client Deliverable - Redefine Innovative Infrastruc,Beta,Jagrati Bahl,Client Deliverable,24,22.6,80.6,2026-03-31,HIGH,79363,IN_PROGRESS
+T059,Feature Development - Benchmark Seamless Content,Delta,George Srivastava,Feature Development,7,7.1,92.8,2026-03-31,LOW,0,IN_PROGRESS
+T060,Code Review - Incubate Clicks-And-Mortar Syn,Delta,Parth Maharaj,Code Review,29,13.6,52.0,2026-04-02,LOW,0,IN_PROGRESS
+T061,Feature Development - Enhance Dot-Com Deliverables,Alpha,Warjas Varkey,Feature Development,37,29.6,72.1,2026-03-31,HIGH,149380,IN_PROGRESS
+T062,Documentation - Synergize Interactive Applicat,Alpha,Yauvani Warrior,Documentation,21,8.2,44.4,2026-03-31,HIGH,267136,IN_PROGRESS
+T063,Code Review - Harness Collaborative Roi,Delta,Ubika Dalal,Code Review,5,4.2,84.9,2026-03-31,LOW,0,IN_PROGRESS
+T064,Feature Development - E-Enable Viral Functionalities,Alpha,Alka Saini,Feature Development,33,24.9,74.7,2026-03-31,LOW,0,IN_PROGRESS
+T065,Code Review - Enhance Interactive Systems,Alpha,Rishi Patil,Code Review,22,8.2,39.2,2026-03-31,HIGH,220653,IN_PROGRESS
+T066,Client Deliverable - Envisioneer Wireless Models,Beta,Lavanya Sem,Client Deliverable,6,1.5,31.2,2026-03-31,LOW,0,IN_PROGRESS
+T067,Bug Fix - Enable Collaborative Schemas,Beta,Ubika Narula,Bug Fix,5,4.8,96.4,2026-03-31,MEDIUM,0,IN_PROGRESS
+T068,Client Deliverable - Reinvent Granular Methodologie,Delta,Chatura Mohan,Client Deliverable,27,10.1,35.8,2026-03-31,HIGH,281886,IN_PROGRESS
+T069,Bug Fix - Morph Distributed Models,Gamma,Vedika Dugar,Bug Fix,21,8.9,35.5,2026-04-02,LOW,0,IN_PROGRESS
+T070,Testing - Scale Enterprise Interfaces,Beta,Vivaan Karan,Testing,22,11.7,57.4,2026-03-31,HIGH,34663,IN_PROGRESS
+T071,Documentation - Deliver Viral Experiences,Delta,Aahana Prabhu,Documentation,17,6.8,34.1,2026-03-31,LOW,0,IN_PROGRESS
+T072,Client Deliverable - Whiteboard Robust E-Tailers,Alpha,Atharv Kuruvilla,Client Deliverable,40,15.8,46.7,2026-04-03,HIGH,384178,IN_PROGRESS
+T073,Documentation - Incentivize Interactive Mindsh,Beta,Samesh Natarajan,Documentation,2,0.8,41.5,2026-03-31,MEDIUM,0,IN_PROGRESS
+T074,Feature Development - Synergize One-To-One E-Markets,Gamma,Om Jhaveri,Feature Development,25,10.6,38.9,2026-03-31,MEDIUM,0,IN_PROGRESS
+T075,Bug Fix - Brand E-Business Channels,Alpha,Suhani Tara,Bug Fix,23,20.1,86.5,2026-03-31,MEDIUM,0,IN_PROGRESS
+T076,Documentation - Benchmark Next-Generation E-Co,Gamma,Oliver Vora,Documentation,38,27.6,73.9,2026-03-31,MEDIUM,0,IN_PROGRESS
+T077,Bug Fix - Embrace Seamless Paradigms,Gamma,Adweta Gandhi,Bug Fix,33,28.2,90.2,2026-04-03,LOW,0,IN_PROGRESS
+T078,Bug Fix - Disintermediate Ubiquitous Syn,Gamma,Balendra Jhaveri,Bug Fix,38,26.1,77.2,2026-04-03,LOW,0,IN_PROGRESS
+T079,Bug Fix - Engage Next-Generation Applica,Alpha,Bhavna Koshy,Bug Fix,2,0.9,47.1,2026-04-02,MEDIUM,0,IN_PROGRESS
+T080,Feature Development - Enhance Vertical Eyeballs,Beta,Bhavini Bhakta,Feature Development,4,2.4,68.7,2026-03-31,HIGH,219870,IN_PROGRESS
+T081,Client Deliverable - Embrace Best-Of-Breed Users,Beta,Ishwar Seshadri,Client Deliverable,22,11.1,49.0,2026-03-31,LOW,0,IN_PROGRESS
+T082,Testing - Exploit Transparent Web-Readin,Alpha,Osha Oza,Testing,5,2.5,42.6,2026-03-31,HIGH,24079,IN_PROGRESS
+T083,Client Deliverable - Innovate Killer Channels,Alpha,Liam Grover,Client Deliverable,20,7.7,37.8,2026-03-31,HIGH,290581,IN_PROGRESS
+T084,Code Review - Revolutionize World-Class Tech,Alpha,Yochana Krishnan,Code Review,14,7.7,50.4,2026-03-31,MEDIUM,0,IN_PROGRESS
+T085,Client Deliverable - Morph Ubiquitous Info-Mediarie,Beta,Sai Chowdhury,Client Deliverable,25,21.4,71.4,2026-04-03,MEDIUM,0,IN_PROGRESS
+T086,Documentation - Revolutionize Turn-Key E-Taile,Beta,Irya Barad,Documentation,36,25.8,83.2,2026-04-03,LOW,0,IN_PROGRESS
+T087,Bug Fix - Orchestrate Cross-Platform E-C,Delta,Baghyawati Deo,Bug Fix,16,12.8,67.9,2026-03-31,HIGH,5030,IN_PROGRESS
+T088,Documentation - Iterate Efficient Networks,Alpha,Lopa Tata,Documentation,26,19.6,89.4,2026-03-31,HIGH,161224,IN_PROGRESS
+T089,Client Deliverable - Architect Integrated Technolog,Beta,Triya Nanda,Client Deliverable,33,34.8,97.3,2026-04-02,LOW,0,IN_PROGRESS
+T090,Bug Fix - Visualize Virtual Niches,Alpha,Victor Krishnan,Bug Fix,16,16.0,92.8,2026-04-03,HIGH,216560,IN_PROGRESS
+T091,Client Deliverable - Transition Turn-Key Convergenc,Gamma,Nidra Doctor,Client Deliverable,7,5.2,70.7,2026-04-03,HIGH,69999,IN_PROGRESS
+T092,Bug Fix - Exploit Leading-Edge Interface,Delta,Akshay Comar,Bug Fix,39,29.0,69.7,2026-03-31,MEDIUM,0,IN_PROGRESS
+T093,Feature Development - Incubate Virtual Communities,Beta,Tamanna Bala,Feature Development,20,11.3,48.3,2026-03-31,MEDIUM,0,IN_PROGRESS
+T094,Documentation - Grow Killer Initiatives,Delta,Qushi Anne,Documentation,22,10.3,52.3,2026-03-31,MEDIUM,0,IN_PROGRESS
+T095,Feature Development - Seize Real-Time Roi,Beta,Mitali Dey,Feature Development,39,12.7,37.6,2026-03-31,LOW,0,IN_PROGRESS
+T096,Code Review - Evolve Mission-Critical Techno,Delta,Jeremiah Chhabra,Code Review,28,12.8,38.5,2026-03-31,MEDIUM,0,IN_PROGRESS
+T097,Client Deliverable - Re-Contextualize Cutting-Edge ,Beta,Nimrat Master,Client Deliverable,21,11.0,62.4,2026-03-31,LOW,0,IN_PROGRESS
+T098,Documentation - Syndicate Killer Niches,Gamma,Oeshi Karnik,Documentation,40,11.3,32.8,2026-03-31,MEDIUM,0,IN_PROGRESS
+T099,Code Review - Re-Contextualize Customized Ac,Beta,Radhika Sundaram,Code Review,27,16.1,65.9,2026-03-31,HIGH,156678,IN_PROGRESS
+T100,Bug Fix - Mesh Extensible Experiences,Beta,Falan Ray,Bug Fix,27,21.8,89.8,2026-03-31,HIGH,288421,IN_PROGRESS
+T101,Bug Fix - Streamline Mission-Critical Ac,Delta,Ekanta Tiwari,Bug Fix,10,4.4,38.5,2026-03-31,LOW,0,IN_PROGRESS
+T102,Feature Development - Engineer 24/7 Supply-Chains,Beta,Tamanna Bandi,Feature Development,14,13.2,87.7,2026-03-31,MEDIUM,0,IN_PROGRESS
+T103,Testing - Grow Next-Generation Systems,Alpha,Unni Randhawa,Testing,39,15.2,48.1,2026-03-31,LOW,0,IN_PROGRESS
+T104,Feature Development - Unleash Cross-Media Methodolog,Alpha,Qabil Kata,Feature Development,30,30.2,86.7,2026-03-31,LOW,0,IN_PROGRESS
+T105,Bug Fix - Mesh E-Business Synergies,Gamma,Sara Bala,Bug Fix,4,3.3,96.0,2026-03-31,LOW,0,IN_PROGRESS
+T106,Documentation - Embrace Innovative Platforms,Delta,Hritik Mishra,Documentation,27,18.8,64.7,2026-03-31,MEDIUM,0,IN_PROGRESS
+T107,Code Review - Optimize Mission-Critical Tech,Beta,Tanay Bhasin,Code Review,15,12.8,93.6,2026-03-31,MEDIUM,0,IN_PROGRESS
+T108,Bug Fix - Strategize Clicks-And-Mortar E,Beta,Abhiram Kurian,Bug Fix,17,12.4,75.3,2026-03-31,MEDIUM,0,IN_PROGRESS
+T109,Bug Fix - Iterate Transparent Vortals,Delta,Omaja Bassi,Bug Fix,7,3.4,49.6,2026-04-02,LOW,0,IN_PROGRESS
+T110,Documentation - Monetize Front-End Web-Readine,Beta,Yatin Lalla,Documentation,36,34.3,85.6,2026-03-31,MEDIUM,0,IN_PROGRESS
+T111,Client Deliverable - Enable Compelling Paradigms,Gamma,Warda Wali,Client Deliverable,36,35.5,84.7,2026-04-02,MEDIUM,0,IN_PROGRESS
+T112,Client Deliverable - Synergize Cross-Media Vortals,Gamma,Vasana Chadha,Client Deliverable,19,8.4,42.6,2026-03-31,MEDIUM,0,IN_PROGRESS
+T113,Code Review - Leverage User-Centric E-Tailer,Alpha,Aarna Kant,Code Review,5,4.4,86.6,2026-03-31,MEDIUM,0,IN_PROGRESS
+T114,Feature Development - Facilitate Integrated Web-Read,Beta,Tanveer Verma,Feature Development,8,3.4,47.3,2026-04-03,LOW,0,IN_PROGRESS
+T115,Feature Development - E-Enable Ubiquitous Web-Readin,Alpha,Ronith Gupta,Feature Development,38,31.9,89.3,2026-03-31,MEDIUM,0,IN_PROGRESS
+T116,Feature Development - Expedite Interactive Solutions,Beta,Kamala Chakraborty,Feature Development,17,14.2,71.5,2026-03-31,HIGH,188105,IN_PROGRESS
+T117,Documentation - Matrix Revolutionary Models,Alpha,Anmol Garde,Documentation,24,23.7,96.3,2026-03-31,HIGH,74502,IN_PROGRESS
+T118,Client Deliverable - Reinvent Leading-Edge E-Market,Beta,Bhavya Apte,Client Deliverable,36,15.2,51.6,2026-03-31,MEDIUM,0,IN_PROGRESS
+T119,Feature Development - Re-Intermediate Front-End Conv,Alpha,Omaja Doshi,Feature Development,40,14.5,45.3,2026-04-02,HIGH,250603,IN_PROGRESS
+T120,Feature Development - Monetize Magnetic Experiences,Beta,Nachiket Tata,Feature Development,23,15.2,80.2,2026-03-31,MEDIUM,0,IN_PROGRESS
+T121,Testing - Morph Best-Of-Breed Communitie,Beta,Darpan Mand,Testing,11,11.0,84.2,2026-03-31,HIGH,191307,IN_PROGRESS
+T122,Documentation - Morph Mission-Critical Relatio,Gamma,Kashvi Kanda,Documentation,27,17.7,71.0,2026-03-31,MEDIUM,0,IN_PROGRESS
+T123,Feature Development - Reinvent Scalable Models,Beta,Vihaan Barman,Feature Development,29,26.3,85.4,2026-04-03,MEDIUM,0,IN_PROGRESS
+T124,Documentation - Unleash Holistic Models,Beta,Shivani Shankar,Documentation,37,25.8,78.5,2026-03-31,HIGH,187079,IN_PROGRESS
+T125,Client Deliverable - Re-Intermediate Best-Of-Breed ,Beta,Chanchal Palla,Client Deliverable,21,14.5,81.4,2026-04-03,MEDIUM,0,IN_PROGRESS
+T126,Documentation - Mesh Collaborative Web-Readine,Alpha,Keya Kar,Documentation,38,19.0,57.4,2026-03-31,HIGH,16977,IN_PROGRESS
+T127,Testing - Exploit Mission-Critical Porta,Gamma,Michael Banik,Testing,16,14.1,74.8,2026-04-03,LOW,0,IN_PROGRESS
+T128,Code Review - Incubate World-Class Systems,Beta,Chandran Chadha,Code Review,6,2.4,46.7,2026-03-31,MEDIUM,0,IN_PROGRESS
+T129,Documentation - Revolutionize Leading-Edge Net,Alpha,Yashodhara Guha,Documentation,23,12.5,61.3,2026-03-31,MEDIUM,0,IN_PROGRESS
+T130,Code Review - Integrate Clicks-And-Mortar Co,Alpha,Leela Kadakia,Code Review,18,12.5,85.1,2026-03-31,HIGH,671,IN_PROGRESS
+T131,Documentation - Iterate Open-Source Info-Media,Delta,Avi Sachdev,Documentation,28,27.3,97.8,2026-04-03,MEDIUM,0,IN_PROGRESS
+T132,Code Review - Streamline Wireless Models,Delta,Warda Mahajan,Code Review,36,22.6,56.3,2026-04-02,MEDIUM,0,IN_PROGRESS
+T133,Feature Development - Harness Virtual Web Services,Beta,Jacob Gill,Feature Development,30,9.7,35.2,2026-04-03,LOW,0,IN_PROGRESS
+T134,Code Review - Re-Contextualize 24/7 Networks,Gamma,Veda Parikh,Code Review,8,3.3,35.2,2026-03-31,LOW,0,IN_PROGRESS
+T135,Documentation - Unleash Holistic Action-Items,Beta,Zaid Palla,Documentation,6,3.8,68.3,2026-03-31,LOW,0,IN_PROGRESS
+T136,Documentation - Grow Plug-And-Play Info-Mediar,Delta,Samuel Buch,Documentation,3,1.9,60.2,2026-03-31,HIGH,86506,IN_PROGRESS
+T137,Feature Development - Exploit Frictionless Networks,Delta,Jeet Narang,Feature Development,5,2.2,37.1,2026-03-31,LOW,0,IN_PROGRESS
+T138,Documentation - Morph Revolutionary Web Servic,Delta,Aarav Magar,Documentation,37,27.0,80.5,2026-03-31,HIGH,283181,IN_PROGRESS
+T139,Code Review - Mesh Collaborative Web Service,Gamma,Noah Mahal,Code Review,17,6.4,36.7,2026-03-31,MEDIUM,0,IN_PROGRESS
+T140,Feature Development - Utilize B2C Paradigms,Delta,Ethan Kibe,Feature Development,5,2.3,55.3,2026-03-31,MEDIUM,0,IN_PROGRESS
+T141,Feature Development - Syndicate End-To-End Deliverab,Delta,Logan Deep,Feature Development,8,2.7,31.8,2026-03-31,LOW,0,IN_PROGRESS
+T142,Client Deliverable - Aggregate Back-End E-Tailers,Alpha,Manan Baral,Client Deliverable,9,4.2,39.9,2026-03-31,HIGH,712855,IN_PROGRESS
+T143,Bug Fix - Visualize Cross-Media Portals,Gamma,Lavanya Bhagat,Bug Fix,36,23.7,57.1,2026-04-02,MEDIUM,0,IN_PROGRESS
+T144,Feature Development - Strategize Integrated Applicat,Gamma,Chasmum Ahuja,Feature Development,30,9.8,33.1,2026-03-31,MEDIUM,0,IN_PROGRESS
+T145,Code Review - Engage Extensible Web Services,Beta,Tanish Doctor,Code Review,38,10.9,34.3,2026-04-03,HIGH,50700,IN_PROGRESS
+T146,Testing - Incubate Leading-Edge Networks,Gamma,Balveer Pradhan,Testing,28,28.0,97.9,2026-03-31,HIGH,119282,IN_PROGRESS
+T147,Testing - Incentivize Compelling Deliver,Delta,Edhitha Kade,Testing,28,28.1,97.6,2026-03-31,HIGH,248944,IN_PROGRESS
+T148,Client Deliverable - Streamline Scalable Platforms,Beta,Aahana Pillay,Client Deliverable,21,7.5,35.5,2026-04-03,HIGH,18207,IN_PROGRESS
+T149,Bug Fix - Productize Viral Solutions,Beta,Harshil Sane,Bug Fix,30,15.0,42.1,2026-04-02,LOW,0,IN_PROGRESS
+T150,Feature Development - Re-Contextualize Web-Enabled S,Beta,Suhani Dutta,Feature Development,4,2.1,59.6,2026-04-03,HIGH,228271,IN_PROGRESS
+T151,Testing - Reinvent Sticky Initiatives,Beta,Kamya Kale,Testing,18,7.9,52.4,2026-03-31,HIGH,35133,IN_PROGRESS
+T152,Testing - Optimize Web-Enabled Deliverab,Delta,Tanmayi Dewan,Testing,22,23.1,90.0,2026-03-31,HIGH,240206,IN_PROGRESS
+T153,Documentation - Implement Collaborative Partne,Alpha,Rachita Chaudhry,Documentation,39,21.9,66.6,2026-04-02,MEDIUM,0,IN_PROGRESS
+T154,Feature Development - Engineer Synergistic Bandwidth,Beta,Dhruv Sachar,Feature Development,38,31.6,71.2,2026-03-31,LOW,0,IN_PROGRESS
+T155,Code Review - Mesh Innovative E-Tailers,Alpha,Gagan Dada,Code Review,36,29.9,91.6,2026-03-31,MEDIUM,0,IN_PROGRESS
+T156,Testing - Reinvent Value-Added E-Markets,Delta,Pranav Bhat,Testing,40,23.0,63.1,2026-03-31,LOW,0,IN_PROGRESS
+T157,Testing - Harness 24/7 Experiences,Beta,Damini Palan,Testing,40,25.3,77.7,2026-03-31,MEDIUM,0,IN_PROGRESS
+T158,Documentation - Cultivate Strategic E-Markets,Gamma,Vanya Reddy,Documentation,17,6.6,33.5,2026-03-31,MEDIUM,0,IN_PROGRESS
+T159,Bug Fix - Evolve Collaborative Functiona,Gamma,Ekavir Kamdar,Bug Fix,23,18.5,87.2,2026-03-31,MEDIUM,0,IN_PROGRESS
+T160,Documentation - Extend Scalable Action-Items,Delta,Mitesh Andra,Documentation,8,6.7,98.1,2026-04-03,LOW,0,IN_PROGRESS
+T161,Code Review - Iterate Visionary Eyeballs,Delta,Gautami Vohra,Code Review,19,13.5,81.0,2026-03-31,HIGH,46812,IN_PROGRESS
+T162,Client Deliverable - Reinvent Real-Time Relationshi,Beta,Yashawini Varkey,Client Deliverable,33,31.0,83.2,2026-03-31,MEDIUM,0,IN_PROGRESS
+T163,Bug Fix - Benchmark Magnetic Web Service,Beta,Vansha Sood,Bug Fix,21,14.3,79.7,2026-03-31,MEDIUM,0,IN_PROGRESS
+T164,Feature Development - Mesh Cutting-Edge Mindshare,Alpha,Amol Bhasin,Feature Development,14,14.5,91.3,2026-03-31,LOW,0,IN_PROGRESS
+T165,Bug Fix - Engineer Back-End Niches,Beta,Kavya Agate,Bug Fix,31,11.2,33.5,2026-03-31,MEDIUM,0,IN_PROGRESS
+T166,Code Review - Envisioneer Strategic Paradigm,Gamma,Tripti Sama,Code Review,31,21.7,65.4,2026-04-03,HIGH,64945,IN_PROGRESS
+T167,Code Review - Implement Bleeding-Edge Archit,Beta,Tanmayi Jaggi,Code Review,33,28.0,71.6,2026-03-31,LOW,0,IN_PROGRESS
+T168,Testing - Envisioneer Robust Bandwidth,Delta,Azaan Basak,Testing,37,22.9,54.5,2026-03-31,LOW,0,IN_PROGRESS
+T169,Documentation - Enable Real-Time Content,Gamma,Diya Kunda,Documentation,7,2.9,50.0,2026-03-31,MEDIUM,0,IN_PROGRESS
+T170,Feature Development - Utilize Next-Generation Networ,Beta,Sanya Nazareth,Feature Development,16,13.1,77.4,2026-03-31,MEDIUM,0,IN_PROGRESS
+T171,Documentation - Disintermediate Cross-Platform,Alpha,Karan Thakkar,Documentation,2,1.3,63.2,2026-03-31,LOW,0,IN_PROGRESS
+T172,Feature Development - Mesh Real-Time E-Business,Alpha,Varsha More,Feature Development,18,14.2,72.6,2026-03-31,MEDIUM,0,IN_PROGRESS
+T173,Client Deliverable - Utilize 24/365 Portals,Gamma,Bachittar Shukla,Client Deliverable,26,21.0,89.6,2026-03-31,MEDIUM,0,IN_PROGRESS
+T174,Code Review - Target Viral Portals,Delta,Ishwar Aggarwal,Code Review,35,31.7,87.7,2026-03-31,MEDIUM,0,IN_PROGRESS
+T175,Testing - Leverage Intuitive Relationshi,Alpha,Radhika Chander,Testing,25,15.9,69.3,2026-03-31,HIGH,148204,IN_PROGRESS
+T176,Client Deliverable - Repurpose Mission-Critical Web,Alpha,Praneel Behl,Client Deliverable,6,2.5,36.9,2026-04-02,HIGH,540930,IN_PROGRESS
+T177,Documentation - Generate Vertical E-Commerce,Gamma,Gaurang Dhaliwal,Documentation,21,10.5,43.2,2026-04-03,HIGH,125987,IN_PROGRESS
+T178,Documentation - Generate Bricks-And-Clicks Nic,Delta,Hemal Om,Documentation,22,18.1,77.7,2026-04-02,HIGH,13345,IN_PROGRESS
+T179,Code Review - Incubate Innovative Communitie,Gamma,Rishi Soni,Code Review,28,16.9,58.3,2026-03-31,HIGH,18517,IN_PROGRESS
+T180,Code Review - Strategize Leading-Edge Bandwi,Beta,Veda Venkatesh,Code Review,16,14.5,78.0,2026-04-03,HIGH,249422,IN_PROGRESS
+T181,Testing - Synergize Frictionless Relatio,Gamma,Kavya Bora,Testing,21,16.3,89.2,2026-03-31,HIGH,292682,IN_PROGRESS
+T182,Client Deliverable - Whiteboard Best-Of-Breed Deliv,Alpha,Charles Nagi,Client Deliverable,10,5.3,48.1,2026-04-02,HIGH,786187,IN_PROGRESS
+T183,Documentation - Unleash Efficient Infrastructu,Beta,Neel Bhardwaj,Documentation,23,16.4,75.8,2026-03-31,LOW,0,IN_PROGRESS
+T184,Client Deliverable - Deliver Global Platforms,Gamma,Darika Panchal,Client Deliverable,23,12.7,56.0,2026-03-31,HIGH,154167,IN_PROGRESS
+T185,Client Deliverable - Enhance Scalable Web-Readiness,Alpha,Mugdha Morar,Client Deliverable,5,2.2,44.6,2026-03-31,HIGH,274675,IN_PROGRESS
+T186,Testing - Syndicate Collaborative Conten,Beta,Lila Radhakrishnan,Testing,9,8.3,90.7,2026-04-03,MEDIUM,0,IN_PROGRESS
+T187,Bug Fix - Aggregate Cross-Platform Metri,Delta,Abdul Vyas,Bug Fix,11,4.1,39.6,2026-03-31,LOW,0,IN_PROGRESS
+T188,Feature Development - Brand Distributed Supply-Chain,Delta,Xiti Nigam,Feature Development,22,22.1,90.4,2026-03-31,LOW,0,IN_PROGRESS
+T189,Code Review - Facilitate Sticky Metrics,Delta,Arunima Gole,Code Review,13,5.4,51.9,2026-04-02,LOW,0,IN_PROGRESS
+T190,Feature Development - Transition Dynamic Initiatives,Gamma,Jai Oza,Feature Development,12,8.4,70.3,2026-03-31,LOW,0,IN_PROGRESS
+T191,Feature Development - Morph E-Business Channels,Alpha,Nirja Prabhakar,Feature Development,29,20.9,74.3,2026-04-02,MEDIUM,0,IN_PROGRESS
+T192,Client Deliverable - Engineer Transparent Paradigms,Delta,Meghana Swamy,Client Deliverable,2,0.7,32.6,2026-04-02,LOW,0,IN_PROGRESS
+T193,Code Review - Transform Cutting-Edge Content,Alpha,Wishi Narain,Code Review,35,15.9,43.3,2026-03-31,HIGH,2162,IN_PROGRESS
+T194,Feature Development - Optimize World-Class Niches,Beta,Lohit Chadha,Feature Development,24,11.9,51.8,2026-03-31,LOW,0,IN_PROGRESS
+T195,Feature Development - Matrix Bleeding-Edge Convergen,Gamma,Varenya Divan,Feature Development,6,6.2,87.7,2026-03-31,MEDIUM,0,IN_PROGRESS
+T196,Documentation - Facilitate Magnetic Schemas,Delta,Forum Sama,Documentation,35,24.4,71.7,2026-03-31,MEDIUM,0,IN_PROGRESS
+T197,Code Review - Generate Value-Added Content,Beta,Pushti Parikh,Code Review,33,15.8,55.1,2026-04-02,LOW,0,IN_PROGRESS
+T198,Bug Fix - Brand Seamless Networks,Delta,Dipta Kapoor,Bug Fix,16,6.5,45.7,2026-03-31,LOW,0,IN_PROGRESS
+T199,Testing - Optimize Turn-Key Solutions,Alpha,Utkarsh Gera,Testing,34,15.4,41.8,2026-04-02,MEDIUM,0,IN_PROGRESS
+T200,Client Deliverable - Exploit Seamless Systems,Alpha,Liam Sarin,Client Deliverable,18,8.7,45.6,2026-03-31,HIGH,250290,IN_PROGRESS

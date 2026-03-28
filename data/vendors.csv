@@ -1,0 +1,501 @@
+vendor_id,vendor_name,category,annual_spend_inr,contract_start,payment_terms,gst_number,city,is_duplicate
+V001,Tata Consultancy Services,IT Services,2400000,2024-10-10,Net 60,27AAAAA0576A4Z8,Mumbai,False
+V002,Infosys Limited,IT Services,1800000,2023-04-05,Net 30,27AAAAA2242A8Z3,Delhi,False
+V003,Wipro Technologies,IT Services,1500000,2023-04-25,Net 45,27AAAAA5035A3Z9,Bangalore,False
+V004,Amazon Web Services,Cloud Infrastructure,3200000,2024-12-17,Net 30,27AAAAA8398A6Z8,Bangalore,False
+V005,Microsoft Azure India,Cloud Infrastructure,2800000,2024-12-22,Net 60,27AAAAA4392A0Z3,Mumbai,False
+V006,Google Cloud India,Cloud Infrastructure,1900000,2025-03-14,Net 60,27AAAAA6211A7Z7,Delhi,False
+V007,Zomato Business,Facility Management,450000,2023-10-29,Net 60,27AAAAA4470A0Z7,Mumbai,False
+V008,Swiggy Corporate,Facility Management,380000,2025-02-26,Net 60,27AAAAA0338A9Z0,Chennai,False
+V009,HDFC Payroll Services,HR & Payroll,920000,2024-08-25,Net 30,27AAAAA0465A9Z0,Mumbai,False
+V010,Zoho Corporation,Software Licensing,680000,2023-05-14,Net 30,27AAAAA2401A2Z1,Bangalore,False
+V011,Freshworks Inc,Software Licensing,540000,2023-07-27,Net 30,27AAAAA2401A2Z6,Pune,False
+V012,Razorpay Payments,Accounting & Finance,320000,2024-07-03,Net 60,27AAAAA8423A5Z4,Mumbai,False
+V013,SecurityFirst India,Security Services,780000,2024-01-11,Net 60,27AAAAA0807A0Z4,Bangalore,False
+V014,QuickHeal Technologies,Security Services,430000,2024-08-10,Net 60,27AAAAA1264A0Z7,Delhi,False
+V015,DHL India Logistics,Logistics & Supply Chain,560000,2023-10-03,Net 60,27AAAAA0443A5Z2,Pune,False
+V016,TCS India Pvt Ltd,IT Services,890000,2025-08-25,Net 45,27AAAAA1377A8Z2,Bangalore,True
+V017,Tata CS Limited,IT Services,340000,2026-03-18,Net 45,27AAAAA1150A2Z2,Pune,True
+V018,Infosys BPO,IT Services,620000,2024-04-20,Net 45,27AAAAA9157A8Z4,Mumbai,True
+V019,AWS India Services,Cloud Infrastructure,980000,2024-08-17,Net 30,27AAAAA0021A3Z4,Delhi,True
+V020,Amazon Cloud India,Cloud Infrastructure,450000,2025-12-07,Net 45,27AAAAA4475A8Z0,Hyderabad,True
+V021,MS Azure Services,Cloud Infrastructure,670000,2025-01-06,Net 45,27AAAAA1322A1Z0,Bangalore,True
+V022,Microsoft Cloud India,Cloud Infrastructure,320000,2024-10-19,Net 30,27AAAAA9856A2Z7,Hyderabad,True
+V023,Wipro IT Solutions,IT Services,430000,2026-01-15,Net 30,27AAAAA5249A0Z0,Mumbai,True
+V024,HDFC Salary Solutions,HR & Payroll,280000,2025-12-26,Net 45,27AAAAA5990A7Z2,Mumbai,True
+V025,Zoho Software India,Software Licensing,190000,2025-11-27,Net 45,27AAAAA1983A5Z7,Hyderabad,True
+V026,Freshdesk Inc,Software Licensing,210000,2025-07-16,Net 60,27AAAAA7676A1Z4,Hyderabad,True
+V027,Quick Heal Antivirus,Security Services,180000,2026-01-05,Net 30,27AAAAA6195A4Z7,Delhi,True
+V028,DHL Express India,Logistics & Supply Chain,230000,2025-02-16,Net 45,27AAAAA4733A4Z1,Pune,True
+V029,Razorpay India,Accounting & Finance,140000,2026-01-31,Net 30,27AAAAA3730A3Z6,Chennai,True
+V030,Bera-Thakkar Services,IT Services,664839,2025-07-29,Net 60,27AAAAA3101A4Z8,Pune,False
+V031,Chowdhury and Sons Services,HR & Payroll,453258,2024-03-28,Net 60,27AAAAA1362A1Z3,Mumbai,False
+V032,Bal-Kurian India,Cloud Infrastructure,656890,2024-03-08,Net 30,27AAAAA5776A8Z9,Bangalore,False
+V033,Tak and Sons Technologies,IT Services,632952,2024-04-05,Net 45,27AAAAA7732A0Z6,Delhi,False
+V034,Palan PLC India,HR & Payroll,826325,2026-02-13,Net 45,27AAAAA3355A7Z3,Bangalore,False
+V035,Thakkar-Brar Pvt Ltd,Security Services,408903,2023-06-26,Net 60,27AAAAA1802A0Z5,Delhi,False
+V036,"Mander, Oommen and Lad India",Facility Management,1019429,2023-06-11,Net 45,27AAAAA4329A1Z7,Hyderabad,False
+V037,"Deol, Lata and Ravel India",Accounting & Finance,730070,2024-11-30,Net 30,27AAAAA3619A1Z7,Bangalore,False
+V038,Tiwari Ltd Solutions,Cloud Infrastructure,891303,2023-04-28,Net 45,27AAAAA7358A7Z4,Mumbai,False
+V039,Dube-Dutta Services,Facility Management,709927,2023-08-13,Net 30,27AAAAA8088A4Z6,Delhi,False
+V040,"Sani, Palan and Kar Technologies",Legal Services,1012282,2024-04-23,Net 30,27AAAAA3674A8Z8,Hyderabad,False
+V041,"Badal, Chadha and Chaudry India",Software Licensing,1180317,2023-04-13,Net 45,27AAAAA3339A6Z7,Delhi,False
+V042,Krish-Dyal Technologies,Logistics & Supply Chain,887603,2024-04-23,Net 45,27AAAAA1060A1Z6,Bangalore,False
+V043,Sen Ltd Services,Software Licensing,1084977,2026-01-24,Net 30,27AAAAA6172A6Z7,Mumbai,False
+V044,"Baral, Sahota and Nagy India",IT Services,385506,2024-11-17,Net 60,27AAAAA9829A7Z2,Chennai,False
+V045,Brahmbhatt PLC Pvt Ltd,Logistics & Supply Chain,856915,2025-04-13,Net 45,27AAAAA3713A9Z4,Pune,False
+V046,Swamy and Sons Services,Legal Services,577253,2023-06-16,Net 60,27AAAAA9292A1Z0,Mumbai,False
+V047,Bhatnagar-Parekh Services,IT Services,609572,2024-09-02,Net 60,27AAAAA3870A0Z1,Hyderabad,False
+V048,Chowdhury-Nagy Solutions,IT Services,961768,2024-04-13,Net 30,27AAAAA3550A5Z2,Chennai,False
+V049,Salvi Inc Solutions,Cloud Infrastructure,1099805,2026-03-20,Net 30,27AAAAA5684A7Z4,Pune,False
+V050,"Krishnan, Gandhi and Char Solutions",IT Services,1114646,2024-11-07,Net 60,27AAAAA1962A4Z9,Bangalore,False
+V051,"Taneja, Issac and Khosla Solutions",Software Licensing,388792,2025-08-24,Net 60,27AAAAA5246A3Z7,Pune,False
+V052,"Sachar, Borra and Swamy Services",Cloud Infrastructure,729804,2024-07-11,Net 45,27AAAAA4392A8Z1,Mumbai,False
+V053,Murty-Kumer Solutions,IT Services,694903,2024-11-14,Net 30,27AAAAA7292A8Z9,Mumbai,False
+V054,Merchant-Tata Services,Facility Management,215165,2023-04-10,Net 30,27AAAAA3199A9Z9,Delhi,False
+V055,"Lata, Gara and Suresh Pvt Ltd",Legal Services,1167165,2025-01-13,Net 30,27AAAAA8230A7Z4,Bangalore,False
+V056,Tripathi and Sons Services,Legal Services,396296,2023-07-22,Net 45,27AAAAA0444A4Z3,Pune,False
+V057,Badal-Som Technologies,Logistics & Supply Chain,494173,2026-03-25,Net 60,27AAAAA4236A3Z8,Delhi,False
+V058,Om-Ravi Solutions,Facility Management,886747,2024-06-18,Net 60,27AAAAA3858A8Z3,Delhi,False
+V059,"Ganesan, Luthra and Mall Technologies",HR & Payroll,1135435,2024-03-21,Net 45,27AAAAA2975A7Z1,Mumbai,False
+V060,Swamy-Bhardwaj India,Facility Management,184272,2025-11-22,Net 45,27AAAAA4166A0Z5,Mumbai,False
+V061,Chaudhuri-Bahl Services,Logistics & Supply Chain,532585,2024-04-18,Net 60,27AAAAA9908A4Z8,Bangalore,False
+V062,"Chaudry, Krishnan and Srinivas Pvt Ltd",Cloud Infrastructure,173467,2024-10-05,Net 30,27AAAAA1663A2Z2,Mumbai,False
+V063,"Ratti, Narasimhan and Dhillon Solutions",Cloud Infrastructure,198598,2025-11-04,Net 60,27AAAAA8137A5Z7,Bangalore,False
+V064,"Din, Borra and Vasa Technologies",Security Services,499287,2026-02-07,Net 60,27AAAAA4989A5Z7,Bangalore,False
+V065,Bains LLC Services,Logistics & Supply Chain,1041262,2023-08-21,Net 30,27AAAAA3730A9Z8,Chennai,False
+V066,"Bala, Banik and Verma India",Marketing & Advertising,247815,2024-10-01,Net 30,27AAAAA3723A9Z8,Delhi,False
+V067,"Bera, Bhandari and Mutti Solutions",Marketing & Advertising,938308,2026-03-15,Net 45,27AAAAA9666A2Z1,Chennai,False
+V068,"Dave, Parmar and Kashyap Pvt Ltd",Cloud Infrastructure,177113,2025-05-25,Net 45,27AAAAA0040A6Z3,Delhi,False
+V069,"Nayak, Dugal and Bhatia Pvt Ltd",HR & Payroll,571470,2023-08-22,Net 30,27AAAAA0595A0Z6,Bangalore,False
+V070,"Radhakrishnan, Rai and Chhabra Technologies",Accounting & Finance,343983,2024-05-27,Net 45,27AAAAA1115A7Z4,Bangalore,False
+V071,Ravel-Mahajan Technologies,Security Services,573882,2023-10-26,Net 30,27AAAAA6570A1Z7,Chennai,False
+V072,Deo Group Pvt Ltd,Accounting & Finance,156091,2024-11-04,Net 60,27AAAAA7699A2Z9,Pune,False
+V073,Karnik and Sons Pvt Ltd,Cloud Infrastructure,545723,2024-11-10,Net 30,27AAAAA0085A2Z9,Chennai,False
+V074,Vasa Inc Technologies,Legal Services,498260,2023-12-03,Net 45,27AAAAA3043A1Z1,Mumbai,False
+V075,Goswami Ltd Technologies,Software Licensing,54520,2026-01-20,Net 45,27AAAAA5669A7Z9,Hyderabad,False
+V076,Peri LLC Solutions,Legal Services,937110,2024-03-17,Net 60,27AAAAA3578A5Z1,Delhi,False
+V077,Raman and Sons Technologies,Accounting & Finance,374632,2024-02-09,Net 30,27AAAAA8169A6Z2,Hyderabad,False
+V078,"Verma, Khare and Lanka Pvt Ltd",Facility Management,1187065,2024-03-16,Net 30,27AAAAA5468A9Z5,Delhi,False
+V079,"Bassi, Vaidya and Saran Pvt Ltd",HR & Payroll,155156,2024-04-12,Net 60,27AAAAA5375A2Z1,Chennai,False
+V080,"Kuruvilla, Saran and Mittal Services",Accounting & Finance,380160,2024-04-29,Net 30,27AAAAA6818A3Z8,Pune,False
+V081,Ravel-Mohan India,IT Services,193699,2024-04-23,Net 60,27AAAAA3078A8Z8,Mumbai,False
+V082,"Bains, Bumb and Lad Technologies",Facility Management,301420,2025-04-22,Net 60,27AAAAA4805A8Z6,Bangalore,False
+V083,Muni-Sule Services,Logistics & Supply Chain,133344,2024-07-14,Net 60,27AAAAA9868A2Z7,Mumbai,False
+V084,Swaminathan and Sons Services,Marketing & Advertising,1146354,2025-04-25,Net 45,27AAAAA3208A0Z1,Hyderabad,False
+V085,Hari-Bhatti Solutions,Facility Management,550560,2025-01-09,Net 45,27AAAAA8128A3Z3,Chennai,False
+V086,Misra LLC Solutions,Software Licensing,1008869,2024-10-17,Net 45,27AAAAA4939A0Z4,Mumbai,False
+V087,Gokhale-Om Technologies,Cloud Infrastructure,259675,2023-11-30,Net 30,27AAAAA9428A2Z4,Pune,False
+V088,"Shere, Rege and Kade Services",Facility Management,606165,2024-05-06,Net 30,27AAAAA6988A8Z5,Hyderabad,False
+V089,"Chakraborty, Choudhury and Sabharwal India",IT Services,824954,2025-08-21,Net 45,27AAAAA6770A5Z7,Bangalore,False
+V090,Virk PLC Services,Legal Services,684424,2025-04-06,Net 60,27AAAAA6084A7Z6,Delhi,False
+V091,Ram and Sons Pvt Ltd,Accounting & Finance,677842,2025-10-02,Net 60,27AAAAA1245A4Z1,Mumbai,False
+V092,"Bera, Nagar and Mahal Solutions",Software Licensing,292071,2023-04-28,Net 30,27AAAAA0467A8Z5,Delhi,False
+V093,Sangha Inc India,Accounting & Finance,621155,2025-01-07,Net 45,27AAAAA4034A6Z9,Pune,False
+V094,Gera-Mani Solutions,Facility Management,476974,2023-05-20,Net 60,27AAAAA8771A2Z0,Delhi,False
+V095,Parikh Group Services,Security Services,1074525,2025-12-22,Net 45,27AAAAA4689A3Z0,Mumbai,False
+V096,Agrawal-Reddy Technologies,IT Services,630240,2023-08-24,Net 30,27AAAAA8110A8Z0,Mumbai,False
+V097,Mody-Sidhu India,HR & Payroll,599360,2023-12-13,Net 30,27AAAAA4321A7Z9,Delhi,False
+V098,"Apte, Dhawan and Dass Services",Legal Services,946924,2026-03-06,Net 60,27AAAAA4635A2Z4,Mumbai,False
+V099,"Apte, Nagi and Pandya Pvt Ltd",IT Services,362589,2024-08-10,Net 60,27AAAAA6579A4Z6,Mumbai,False
+V100,Mittal PLC Services,HR & Payroll,360575,2023-10-04,Net 45,27AAAAA6254A0Z2,Bangalore,False
+V101,"Bahri, Kapadia and Halder Solutions",Cloud Infrastructure,814729,2024-03-17,Net 30,27AAAAA0480A6Z0,Hyderabad,False
+V102,Chauhan LLC India,Facility Management,265573,2025-06-11,Net 45,27AAAAA9056A5Z1,Pune,False
+V103,"Mannan, Dewan and Bassi Services",Marketing & Advertising,374121,2023-07-31,Net 30,27AAAAA8093A2Z8,Bangalore,False
+V104,Minhas-Joshi Technologies,Software Licensing,101980,2024-09-11,Net 30,27AAAAA4317A5Z1,Delhi,False
+V105,Kamdar LLC Technologies,HR & Payroll,570444,2025-04-01,Net 45,27AAAAA1349A6Z0,Bangalore,False
+V106,Palla-Varughese Technologies,IT Services,131211,2023-06-28,Net 45,27AAAAA1347A7Z3,Bangalore,False
+V107,Venkatesh Group Technologies,Facility Management,783286,2023-10-17,Net 45,27AAAAA6118A0Z3,Bangalore,False
+V108,Bhasin and Sons Pvt Ltd,Facility Management,455022,2025-11-19,Net 45,27AAAAA0434A4Z8,Hyderabad,False
+V109,D’Alia-Loke Pvt Ltd,Security Services,635367,2024-04-20,Net 45,27AAAAA9585A2Z7,Delhi,False
+V110,Nayar-Mahal Technologies,Accounting & Finance,1174525,2024-06-24,Net 45,27AAAAA4384A9Z0,Mumbai,False
+V111,"Gokhale, Ratta and Aurora Solutions",IT Services,424483,2025-07-14,Net 60,27AAAAA5889A0Z0,Hyderabad,False
+V112,"Verma, Seth and Chaudhary Pvt Ltd",Cloud Infrastructure,961346,2026-02-14,Net 45,27AAAAA3627A5Z2,Delhi,False
+V113,Doctor Inc Technologies,HR & Payroll,1122531,2023-12-11,Net 30,27AAAAA7460A2Z3,Chennai,False
+V114,Menon-Tripathi India,Logistics & Supply Chain,584191,2024-02-16,Net 30,27AAAAA8613A1Z2,Delhi,False
+V115,"Divan, Sahni and Sidhu Pvt Ltd",Marketing & Advertising,1140351,2025-10-04,Net 60,27AAAAA5846A9Z5,Delhi,False
+V116,Divan LLC Solutions,Facility Management,954496,2026-03-09,Net 30,27AAAAA9454A0Z6,Delhi,False
+V117,"Mohanty, Khurana and Sant Services",HR & Payroll,708328,2023-11-02,Net 60,27AAAAA5959A3Z4,Mumbai,False
+V118,Halder-Virk Services,Security Services,698616,2025-04-19,Net 60,27AAAAA8638A7Z4,Chennai,False
+V119,Magar-Dewan Technologies,HR & Payroll,670033,2026-01-31,Net 60,27AAAAA8592A5Z5,Bangalore,False
+V120,Malhotra and Sons Technologies,Facility Management,845125,2025-06-15,Net 60,27AAAAA9323A2Z0,Delhi,False
+V121,Dash-Pathak Services,Software Licensing,681137,2025-09-03,Net 45,27AAAAA5975A4Z1,Pune,False
+V122,Mitra and Sons Solutions,Cloud Infrastructure,651701,2023-11-15,Net 30,27AAAAA1889A4Z5,Chennai,False
+V123,Batta LLC Services,Logistics & Supply Chain,725805,2026-03-01,Net 45,27AAAAA8445A0Z4,Chennai,False
+V124,Sachdev LLC India,Legal Services,1122009,2024-08-14,Net 45,27AAAAA9712A9Z1,Delhi,False
+V125,Handa-Hegde Pvt Ltd,Software Licensing,645143,2025-06-07,Net 60,27AAAAA8068A1Z2,Delhi,False
+V126,"Devan, Chokshi and Mani Solutions",Logistics & Supply Chain,245847,2025-08-18,Net 30,27AAAAA4029A0Z0,Delhi,False
+V127,"Rama, Shetty and Sundaram India",Security Services,467605,2024-12-24,Net 30,27AAAAA3897A0Z1,Mumbai,False
+V128,Wable-Dash India,Cloud Infrastructure,1046433,2024-09-08,Net 60,27AAAAA3595A0Z2,Mumbai,False
+V129,"Saran, Chawla and Mallick Technologies",Legal Services,457760,2024-11-30,Net 60,27AAAAA0357A9Z8,Delhi,False
+V130,Samra-Mahal Technologies,Marketing & Advertising,888132,2023-09-21,Net 30,27AAAAA4197A0Z2,Bangalore,False
+V131,"Balasubramanian, Narayan and Tank Pvt Ltd",Cloud Infrastructure,941596,2024-01-05,Net 30,27AAAAA8447A1Z6,Bangalore,False
+V132,Goswami-Kumer Technologies,Accounting & Finance,155315,2024-10-31,Net 60,27AAAAA1441A2Z2,Bangalore,False
+V133,Choudhry-Karan Technologies,IT Services,329632,2023-09-16,Net 45,27AAAAA1579A8Z6,Delhi,False
+V134,Padmanabhan-Jain Services,Accounting & Finance,715422,2024-09-06,Net 45,27AAAAA6306A7Z9,Pune,False
+V135,Bala Group Technologies,Accounting & Finance,1198970,2023-07-02,Net 45,27AAAAA0547A0Z3,Bangalore,False
+V136,Kibe-Lad Technologies,Legal Services,593564,2024-02-19,Net 30,27AAAAA6988A3Z2,Delhi,False
+V137,Swamy PLC Services,Security Services,1066273,2024-06-28,Net 60,27AAAAA9652A6Z7,Bangalore,False
+V138,Varughese-Sama Technologies,Security Services,212494,2025-05-31,Net 60,27AAAAA9821A2Z1,Hyderabad,False
+V139,Sidhu LLC Solutions,Facility Management,754323,2024-04-21,Net 45,27AAAAA0741A3Z0,Pune,False
+V140,Sabharwal Ltd India,IT Services,366314,2026-01-05,Net 30,27AAAAA8067A2Z5,Chennai,False
+V141,Jain Inc India,Software Licensing,184697,2024-09-17,Net 45,27AAAAA6213A9Z3,Chennai,False
+V142,Borah LLC Services,HR & Payroll,1027114,2024-10-26,Net 45,27AAAAA6731A7Z9,Mumbai,False
+V143,Golla-Suri Technologies,Facility Management,866792,2025-01-22,Net 60,27AAAAA1017A4Z4,Delhi,False
+V144,"Cheema, Yohannan and Jaggi Services",Cloud Infrastructure,847716,2025-05-02,Net 45,27AAAAA6978A5Z5,Mumbai,False
+V145,Dugar-Soman Solutions,HR & Payroll,867861,2024-04-29,Net 45,27AAAAA2705A4Z3,Pune,False
+V146,Chana-Chaudhuri Services,Accounting & Finance,512503,2025-08-07,Net 45,27AAAAA2908A9Z4,Bangalore,False
+V147,"Hari, Khanna and Jani Technologies",Security Services,1068465,2023-05-14,Net 30,27AAAAA2913A5Z6,Chennai,False
+V148,"Nigam, Bhalla and Yadav Technologies",HR & Payroll,396123,2026-03-13,Net 45,27AAAAA2574A9Z7,Bangalore,False
+V149,Golla-Chander Services,Logistics & Supply Chain,106552,2023-05-09,Net 45,27AAAAA7976A2Z9,Pune,False
+V150,Sagar LLC Pvt Ltd,Logistics & Supply Chain,226050,2025-05-25,Net 60,27AAAAA7912A0Z6,Chennai,False
+V151,Sunder Ltd Technologies,Software Licensing,431113,2024-04-03,Net 30,27AAAAA6964A7Z8,Hyderabad,False
+V152,"Johal, Choudhury and Garg Solutions",Marketing & Advertising,493883,2024-02-15,Net 45,27AAAAA3750A1Z5,Hyderabad,False
+V153,Chaudry LLC Technologies,HR & Payroll,633546,2023-11-19,Net 45,27AAAAA8731A5Z7,Hyderabad,False
+V154,"Dixit, Patel and Saran Technologies",IT Services,90649,2024-06-29,Net 60,27AAAAA9724A8Z2,Pune,False
+V155,Gupta-Subramanian Solutions,Cloud Infrastructure,520227,2023-12-28,Net 60,27AAAAA7737A6Z4,Mumbai,False
+V156,Chokshi-Karan Pvt Ltd,Cloud Infrastructure,568590,2025-03-08,Net 30,27AAAAA5023A1Z4,Mumbai,False
+V157,Atwal-Mammen India,Logistics & Supply Chain,550265,2023-08-20,Net 30,27AAAAA2203A6Z6,Chennai,False
+V158,"Savant, Bhakta and Bansal Services",IT Services,507104,2024-10-21,Net 45,27AAAAA2892A5Z8,Delhi,False
+V159,"Sood, Deep and Raghavan Solutions",Security Services,401879,2025-09-04,Net 60,27AAAAA6747A9Z1,Pune,False
+V160,Doctor PLC India,IT Services,702295,2024-08-20,Net 30,27AAAAA1721A2Z3,Pune,False
+V161,Deol-Ram Solutions,Cloud Infrastructure,837075,2025-02-25,Net 45,27AAAAA6641A0Z4,Delhi,False
+V162,"Dave, Nagi and Ram Pvt Ltd",Facility Management,559292,2026-01-05,Net 30,27AAAAA6167A0Z2,Delhi,False
+V163,Bumb and Sons Services,Security Services,303870,2024-01-02,Net 60,27AAAAA6505A2Z5,Mumbai,False
+V164,"Prabhu, Hari and Bora Services",HR & Payroll,948373,2024-12-16,Net 60,27AAAAA8329A8Z5,Hyderabad,False
+V165,Dhillon-Hari Services,IT Services,765613,2024-05-24,Net 30,27AAAAA6002A2Z2,Chennai,False
+V166,Dixit-Bahri Pvt Ltd,Legal Services,959164,2025-03-16,Net 45,27AAAAA3118A8Z4,Delhi,False
+V167,Dora-Johal India,Legal Services,963282,2024-12-09,Net 30,27AAAAA1297A4Z0,Delhi,False
+V168,"Kannan, Raghavan and Nagy Solutions",Accounting & Finance,1178630,2025-04-29,Net 45,27AAAAA2717A0Z4,Chennai,False
+V169,"Sheth, Balasubramanian and Chakrabarti Services",Marketing & Advertising,612866,2023-04-12,Net 45,27AAAAA8433A1Z1,Bangalore,False
+V170,Madan Ltd Solutions,IT Services,995400,2024-08-11,Net 30,27AAAAA1855A3Z1,Chennai,False
+V171,Bassi Ltd Services,Logistics & Supply Chain,844798,2024-08-16,Net 45,27AAAAA1833A3Z5,Mumbai,False
+V172,"Ghose, Srivastava and Sinha Solutions",Legal Services,431345,2025-09-05,Net 45,27AAAAA7761A0Z0,Bangalore,False
+V173,Agarwal-Ben Solutions,HR & Payroll,763742,2025-10-12,Net 45,27AAAAA2829A8Z9,Pune,False
+V174,Parekh-Kumer Services,Security Services,71288,2023-12-26,Net 60,27AAAAA3463A8Z6,Bangalore,False
+V175,Mukherjee-Nagi India,IT Services,902341,2024-01-24,Net 45,27AAAAA0479A0Z8,Pune,False
+V176,Bhandari LLC Technologies,Facility Management,1079326,2023-10-28,Net 45,27AAAAA9719A8Z7,Mumbai,False
+V177,Nadig and Sons Solutions,IT Services,514721,2023-07-22,Net 45,27AAAAA9531A2Z5,Delhi,False
+V178,"Vora, Chaudhary and Verma Solutions",Facility Management,823891,2024-07-30,Net 45,27AAAAA7626A9Z3,Pune,False
+V179,Chanda-Mohan Solutions,Accounting & Finance,942346,2023-07-12,Net 60,27AAAAA2004A2Z8,Pune,False
+V180,Pall-Sami Solutions,HR & Payroll,1001572,2024-04-25,Net 45,27AAAAA2780A3Z9,Hyderabad,False
+V181,Krishnamurthy Inc India,Security Services,303033,2025-10-15,Net 60,27AAAAA5611A2Z6,Bangalore,False
+V182,"Desai, Lata and Bora Pvt Ltd",HR & Payroll,1173788,2024-11-16,Net 60,27AAAAA2207A7Z4,Bangalore,False
+V183,Mane Inc India,Facility Management,1065438,2026-02-26,Net 45,27AAAAA3497A7Z1,Delhi,False
+V184,"Dhaliwal, Konda and Madan Services",Logistics & Supply Chain,643491,2024-08-22,Net 30,27AAAAA5118A2Z2,Bangalore,False
+V185,"Brahmbhatt, Dutt and Walia India",Security Services,806822,2024-01-23,Net 30,27AAAAA4423A5Z8,Hyderabad,False
+V186,Hari-Bhardwaj Services,Cloud Infrastructure,315463,2023-12-10,Net 45,27AAAAA0911A0Z0,Mumbai,False
+V187,Solanki PLC Services,Cloud Infrastructure,662654,2024-03-08,Net 60,27AAAAA6780A4Z7,Bangalore,False
+V188,Atwal LLC Pvt Ltd,Legal Services,75722,2025-09-13,Net 60,27AAAAA6379A0Z6,Hyderabad,False
+V189,Goda-Bhardwaj Technologies,Legal Services,973730,2023-11-03,Net 45,27AAAAA6356A0Z7,Bangalore,False
+V190,Buch PLC Solutions,Cloud Infrastructure,1051870,2025-10-27,Net 30,27AAAAA9877A5Z5,Mumbai,False
+V191,Tiwari-Nagarajan Technologies,Marketing & Advertising,205361,2024-07-22,Net 60,27AAAAA9589A7Z3,Delhi,False
+V192,"Mangal, Warrior and Kamdar India",Cloud Infrastructure,362890,2025-04-22,Net 60,27AAAAA0663A9Z9,Hyderabad,False
+V193,Merchant PLC India,IT Services,298410,2024-01-29,Net 60,27AAAAA5574A1Z3,Chennai,False
+V194,Pingle PLC Services,Logistics & Supply Chain,523300,2025-06-04,Net 60,27AAAAA0000A4Z5,Chennai,False
+V195,Rau-Bhatia Technologies,Legal Services,673594,2025-06-28,Net 60,27AAAAA3554A2Z7,Chennai,False
+V196,Gara PLC Services,Security Services,176312,2025-07-10,Net 60,27AAAAA0552A0Z2,Delhi,False
+V197,Manne Group India,IT Services,492551,2023-11-23,Net 45,27AAAAA7078A3Z8,Delhi,False
+V198,Wable-Sampath India,IT Services,553033,2025-03-03,Net 30,27AAAAA2562A3Z1,Pune,False
+V199,Rai LLC India,IT Services,55611,2025-08-24,Net 45,27AAAAA9512A8Z9,Chennai,False
+V200,"Goswami, Naidu and Sachdeva Technologies",Logistics & Supply Chain,660815,2023-12-20,Net 30,27AAAAA1931A4Z6,Bangalore,False
+V201,Dhaliwal-Jhaveri Solutions,Security Services,1002172,2024-08-14,Net 30,27AAAAA7080A7Z3,Delhi,False
+V202,Rai-Magar Solutions,Facility Management,464856,2025-06-29,Net 45,27AAAAA7303A9Z9,Mumbai,False
+V203,Raman-Bail India,Accounting & Finance,362453,2024-04-01,Net 45,27AAAAA3721A7Z7,Bangalore,False
+V204,Kota and Sons Pvt Ltd,IT Services,397965,2024-09-13,Net 45,27AAAAA5202A6Z2,Pune,False
+V205,Sami-Raja Solutions,Logistics & Supply Chain,970971,2024-07-08,Net 30,27AAAAA2492A6Z4,Chennai,False
+V206,Acharya-Saraf Technologies,Security Services,620941,2025-01-26,Net 60,27AAAAA1421A2Z1,Pune,False
+V207,"Bal, Soman and Mangal Technologies",Legal Services,218698,2025-11-11,Net 60,27AAAAA0809A3Z9,Mumbai,False
+V208,Dugal-Sengupta Solutions,Marketing & Advertising,575059,2026-01-12,Net 30,27AAAAA2809A0Z2,Mumbai,False
+V209,Edwin-Ravel Services,Facility Management,93506,2024-09-01,Net 60,27AAAAA0466A5Z2,Hyderabad,False
+V210,"Palla, Lala and Dar Pvt Ltd",Logistics & Supply Chain,417401,2023-12-05,Net 45,27AAAAA2209A8Z4,Pune,False
+V211,Lal-Kalla Solutions,Legal Services,430610,2025-11-26,Net 60,27AAAAA6691A9Z5,Chennai,False
+V212,Garg PLC Pvt Ltd,Legal Services,1035683,2025-03-26,Net 45,27AAAAA1079A6Z4,Chennai,False
+V213,Bora-Ram Solutions,HR & Payroll,269361,2024-12-25,Net 30,27AAAAA3666A6Z6,Hyderabad,False
+V214,Bose Group Technologies,Marketing & Advertising,654436,2023-09-28,Net 60,27AAAAA2634A3Z5,Chennai,False
+V215,"Choudhary, Ramaswamy and Salvi Pvt Ltd",Accounting & Finance,1003839,2025-03-10,Net 30,27AAAAA3166A3Z4,Hyderabad,False
+V216,Sridhar LLC Solutions,Security Services,293105,2025-09-13,Net 45,27AAAAA2374A4Z3,Pune,False
+V217,Karpe Ltd Services,Cloud Infrastructure,1018834,2025-09-21,Net 45,27AAAAA9987A7Z2,Mumbai,False
+V218,Sood PLC Services,Facility Management,808706,2025-01-07,Net 60,27AAAAA8328A5Z0,Chennai,False
+V219,Chandra Inc Pvt Ltd,Legal Services,476892,2024-11-29,Net 45,27AAAAA6352A5Z3,Pune,False
+V220,Ganesh-Walla Solutions,Software Licensing,968796,2024-04-17,Net 60,27AAAAA5473A9Z1,Chennai,False
+V221,Rattan Ltd Pvt Ltd,IT Services,551843,2025-08-22,Net 60,27AAAAA8818A7Z3,Bangalore,False
+V222,"Mitra, Buch and Kapoor Services",Security Services,78677,2024-10-10,Net 60,27AAAAA8078A1Z9,Chennai,False
+V223,"Char, Sethi and Garg India",IT Services,287945,2026-01-31,Net 45,27AAAAA9511A2Z5,Mumbai,False
+V224,"Kapoor, Wadhwa and Kapur Technologies",Software Licensing,662078,2023-09-26,Net 60,27AAAAA6922A1Z3,Delhi,False
+V225,Ghosh and Sons Technologies,Security Services,1061874,2025-12-09,Net 45,27AAAAA3412A5Z7,Bangalore,False
+V226,Sandal-Samra Services,Legal Services,353336,2024-05-25,Net 45,27AAAAA5116A1Z3,Bangalore,False
+V227,Hari LLC Services,Logistics & Supply Chain,336278,2023-07-19,Net 30,27AAAAA3967A8Z6,Hyderabad,False
+V228,"Goswami, Brar and Randhawa Solutions",Marketing & Advertising,1114803,2024-06-26,Net 45,27AAAAA6620A5Z8,Mumbai,False
+V229,Sidhu-Edwin Solutions,Security Services,1076850,2023-06-07,Net 30,27AAAAA6187A1Z4,Chennai,False
+V230,Parikh Ltd Technologies,Accounting & Finance,773777,2023-06-07,Net 45,27AAAAA7816A1Z6,Pune,False
+V231,"Chawla, Ravel and Dhawan Technologies",Accounting & Finance,1004926,2024-01-16,Net 45,27AAAAA7038A9Z4,Bangalore,False
+V232,Raval Ltd Services,Facility Management,853148,2024-06-06,Net 30,27AAAAA9084A6Z0,Chennai,False
+V233,Wadhwa Ltd Solutions,Cloud Infrastructure,1041903,2025-05-14,Net 60,27AAAAA4111A3Z5,Chennai,False
+V234,Ahluwalia-Nagar India,Marketing & Advertising,1088779,2024-06-26,Net 30,27AAAAA8617A4Z1,Bangalore,False
+V235,"Mahal, Keer and Soman Services",Accounting & Finance,746243,2025-02-11,Net 30,27AAAAA6639A8Z5,Chennai,False
+V236,Gade-Saini Services,IT Services,1008247,2023-07-18,Net 30,27AAAAA1779A1Z2,Delhi,False
+V237,Kaul-Sankaran Technologies,Software Licensing,373718,2025-07-31,Net 30,27AAAAA6893A9Z8,Chennai,False
+V238,Bansal-Puri Solutions,Security Services,883582,2025-08-11,Net 60,27AAAAA9917A0Z1,Mumbai,False
+V239,Kale-Jha Services,HR & Payroll,846937,2024-10-03,Net 45,27AAAAA6417A0Z3,Delhi,False
+V240,Bassi and Sons Services,Legal Services,125285,2025-09-04,Net 60,27AAAAA6532A1Z7,Mumbai,False
+V241,Din PLC Solutions,Facility Management,527073,2025-07-17,Net 60,27AAAAA9193A3Z8,Mumbai,False
+V242,"Thaker, Shroff and Sengupta Pvt Ltd",Marketing & Advertising,260778,2025-04-02,Net 45,27AAAAA4667A3Z7,Bangalore,False
+V243,Sane Group Pvt Ltd,Security Services,146450,2023-08-06,Net 45,27AAAAA0828A6Z0,Mumbai,False
+V244,"Sathe, Bhakta and Garde Solutions",Security Services,836098,2025-01-12,Net 45,27AAAAA5530A2Z4,Bangalore,False
+V245,Vala PLC Services,Facility Management,914135,2024-07-14,Net 60,27AAAAA0354A7Z3,Delhi,False
+V246,Khare Ltd India,Software Licensing,417147,2025-01-19,Net 30,27AAAAA0683A6Z4,Pune,False
+V247,Mukherjee and Sons Services,Marketing & Advertising,555056,2024-06-01,Net 45,27AAAAA2351A3Z5,Pune,False
+V248,Sangha-Ravel India,Software Licensing,1017101,2024-10-28,Net 60,27AAAAA2882A8Z2,Hyderabad,False
+V249,"Lala, Sankaran and Divan Solutions",Legal Services,69707,2024-12-28,Net 45,27AAAAA7249A4Z0,Hyderabad,False
+V250,Srinivas-Khare India,Accounting & Finance,204899,2026-01-03,Net 45,27AAAAA9167A0Z6,Hyderabad,False
+V251,Pandit-Keer Solutions,Logistics & Supply Chain,939840,2026-03-04,Net 60,27AAAAA4369A6Z2,Hyderabad,False
+V252,"Chada, Bhandari and Raj Solutions",Legal Services,467788,2025-08-29,Net 45,27AAAAA4408A5Z2,Chennai,False
+V253,Narayanan-Bala India,IT Services,849778,2025-05-03,Net 60,27AAAAA0688A3Z7,Hyderabad,False
+V254,"Naik, Chawla and Bhatti Solutions",Logistics & Supply Chain,669143,2026-01-08,Net 30,27AAAAA0770A7Z3,Delhi,False
+V255,Raval-Biswas Solutions,Marketing & Advertising,66982,2025-10-08,Net 60,27AAAAA4367A0Z3,Delhi,False
+V256,Sekhon-Mall Services,Cloud Infrastructure,1091712,2025-08-17,Net 45,27AAAAA7331A8Z1,Bangalore,False
+V257,Venkataraman and Sons Solutions,Logistics & Supply Chain,509285,2025-06-17,Net 60,27AAAAA5024A2Z8,Bangalore,False
+V258,Kothari Inc Solutions,Logistics & Supply Chain,336846,2025-07-30,Net 60,27AAAAA0110A0Z0,Mumbai,False
+V259,"Sarraf, Balan and Padmanabhan Solutions",Cloud Infrastructure,974473,2025-12-30,Net 30,27AAAAA1033A4Z1,Pune,False
+V260,"Doshi, Balasubramanian and Das India",HR & Payroll,239023,2024-03-02,Net 45,27AAAAA5869A5Z3,Hyderabad,False
+V261,"Chatterjee, Ben and Tak India",Marketing & Advertising,471097,2025-04-12,Net 30,27AAAAA1118A8Z8,Pune,False
+V262,Chokshi-Badal Services,HR & Payroll,1102339,2025-06-02,Net 45,27AAAAA8151A5Z0,Bangalore,False
+V263,Tandon-Agarwal Technologies,Security Services,668956,2025-06-23,Net 60,27AAAAA7507A0Z0,Hyderabad,False
+V264,"Kala, Chacko and Jha Technologies",IT Services,207914,2024-02-14,Net 30,27AAAAA7005A8Z9,Bangalore,False
+V265,"Pillai, Brar and Keer Services",Marketing & Advertising,817085,2024-03-01,Net 30,27AAAAA5304A1Z5,Chennai,False
+V266,Lalla-Panchal Solutions,Cloud Infrastructure,1175273,2026-02-12,Net 30,27AAAAA6269A3Z3,Chennai,False
+V267,"Peri, Sachar and Atwal Solutions",HR & Payroll,849068,2025-07-29,Net 60,27AAAAA8944A0Z4,Hyderabad,False
+V268,"Natt, Jhaveri and Balasubramanian India",IT Services,1038758,2025-10-26,Net 30,27AAAAA7811A3Z8,Pune,False
+V269,Walla PLC Solutions,Accounting & Finance,514240,2023-04-29,Net 60,27AAAAA9865A3Z6,Mumbai,False
+V270,Chauhan Ltd Solutions,Legal Services,906258,2023-06-07,Net 30,27AAAAA3132A8Z1,Bangalore,False
+V271,Dyal and Sons Pvt Ltd,Cloud Infrastructure,688298,2023-05-31,Net 45,27AAAAA4162A7Z0,Mumbai,False
+V272,Kumer Group India,IT Services,1177316,2024-07-22,Net 30,27AAAAA0550A6Z6,Chennai,False
+V273,"Upadhyay, Bumb and Iyengar Solutions",Legal Services,1182865,2023-04-20,Net 45,27AAAAA6775A6Z7,Pune,False
+V274,Behl-Nath Technologies,Software Licensing,257663,2024-04-06,Net 45,27AAAAA1736A1Z6,Pune,False
+V275,Kalita-Baral Solutions,Marketing & Advertising,118611,2025-03-06,Net 60,27AAAAA0528A3Z6,Hyderabad,False
+V276,Chada-Korpal Technologies,Facility Management,982594,2024-11-16,Net 30,27AAAAA0699A6Z7,Hyderabad,False
+V277,"Purohit, Bali and Desai Solutions",IT Services,1191827,2024-10-02,Net 60,27AAAAA6148A9Z3,Hyderabad,False
+V278,"Kanda, Nayak and Pall Technologies",Cloud Infrastructure,628565,2024-04-04,Net 30,27AAAAA4393A7Z1,Mumbai,False
+V279,"Mammen, Bal and Chopra Pvt Ltd",Legal Services,494818,2026-02-16,Net 60,27AAAAA7621A4Z9,Delhi,False
+V280,"Radhakrishnan, Dara and Kale Pvt Ltd",Logistics & Supply Chain,156070,2025-06-26,Net 45,27AAAAA6691A6Z0,Bangalore,False
+V281,"Kunda, Chhabra and Bose Services",Software Licensing,480347,2025-10-31,Net 30,27AAAAA7792A6Z2,Pune,False
+V282,"Bakshi, Khurana and Bora Services",Facility Management,502882,2024-07-10,Net 30,27AAAAA2042A8Z7,Hyderabad,False
+V283,Malhotra-Bail Services,Software Licensing,55946,2025-01-24,Net 45,27AAAAA3740A0Z7,Bangalore,False
+V284,Sangha Group Services,Software Licensing,575659,2023-09-19,Net 30,27AAAAA8803A1Z0,Mumbai,False
+V285,Ratta and Sons India,Cloud Infrastructure,81164,2025-03-13,Net 45,27AAAAA4545A7Z7,Bangalore,False
+V286,Saraf-Sampath Solutions,Logistics & Supply Chain,83095,2023-08-02,Net 30,27AAAAA9198A4Z7,Hyderabad,False
+V287,"Roy, Mane and Warrior India",Cloud Infrastructure,932818,2024-02-01,Net 60,27AAAAA4088A0Z5,Mumbai,False
+V288,Madan-Nori Technologies,IT Services,990101,2023-10-11,Net 45,27AAAAA1213A8Z9,Pune,False
+V289,"Prabhakar, Andra and Chada Pvt Ltd",Logistics & Supply Chain,997924,2025-01-09,Net 60,27AAAAA5309A4Z2,Bangalore,False
+V290,"Rau, Krishna and Dani Pvt Ltd",Logistics & Supply Chain,1143562,2023-12-25,Net 45,27AAAAA2818A5Z0,Chennai,False
+V291,"Dash, Shukla and Mody Pvt Ltd",Cloud Infrastructure,1054497,2025-06-14,Net 45,27AAAAA9618A6Z6,Chennai,False
+V292,Chaudry-Lad Technologies,IT Services,980217,2025-12-02,Net 30,27AAAAA4465A8Z0,Mumbai,False
+V293,"Boase, Shroff and Mangat Services",HR & Payroll,361078,2026-02-15,Net 30,27AAAAA2910A1Z0,Bangalore,False
+V294,Konda-Ganesh Services,Security Services,1199986,2024-01-09,Net 60,27AAAAA8200A6Z3,Hyderabad,False
+V295,Mishra-Som Services,Marketing & Advertising,1162658,2025-05-21,Net 45,27AAAAA9714A2Z5,Chennai,False
+V296,Bobal PLC Services,Accounting & Finance,952193,2024-03-22,Net 30,27AAAAA6878A6Z8,Delhi,False
+V297,"Khatri, Dixit and Kata Services",IT Services,500936,2025-02-11,Net 45,27AAAAA0216A6Z5,Chennai,False
+V298,Gour Group Technologies,Facility Management,760791,2023-05-23,Net 45,27AAAAA2293A9Z5,Chennai,False
+V299,Kota PLC Pvt Ltd,Marketing & Advertising,705461,2024-11-17,Net 45,27AAAAA2500A3Z2,Hyderabad,False
+V300,Kari-Krishnamurthy Solutions,Security Services,370107,2023-05-21,Net 60,27AAAAA8239A9Z0,Chennai,False
+V301,Mitra Group Pvt Ltd,IT Services,229022,2023-11-20,Net 30,27AAAAA4937A7Z3,Chennai,False
+V302,"Kapadia, Saha and Seshadri Solutions",IT Services,322871,2024-08-10,Net 60,27AAAAA8200A9Z3,Mumbai,False
+V303,Bhasin PLC Services,Logistics & Supply Chain,741317,2025-09-29,Net 60,27AAAAA6080A1Z5,Mumbai,False
+V304,Choudhary LLC Solutions,Marketing & Advertising,936962,2023-12-13,Net 60,27AAAAA3659A8Z3,Mumbai,False
+V305,"Mann, Sandal and Wadhwa Services",Security Services,705252,2025-02-13,Net 45,27AAAAA1215A0Z4,Mumbai,False
+V306,"Bhalla, Prabhakar and Khalsa Services",Logistics & Supply Chain,496145,2023-08-29,Net 30,27AAAAA2887A4Z7,Delhi,False
+V307,"Sethi, Kaur and Goel India",Legal Services,276950,2024-04-26,Net 45,27AAAAA0446A2Z7,Pune,False
+V308,Dar-Sandal Pvt Ltd,HR & Payroll,634199,2023-10-30,Net 60,27AAAAA6487A9Z3,Bangalore,False
+V309,Patel-Bansal Services,Marketing & Advertising,105058,2023-11-10,Net 60,27AAAAA9274A7Z3,Delhi,False
+V310,Sarraf and Sons Pvt Ltd,Security Services,428359,2024-12-15,Net 45,27AAAAA0043A9Z0,Delhi,False
+V311,"Ramaswamy, Taneja and Prabhakar Solutions",Security Services,786149,2023-11-08,Net 30,27AAAAA8603A7Z4,Bangalore,False
+V312,Rana-Divan Services,Software Licensing,890505,2023-10-11,Net 30,27AAAAA8768A0Z9,Bangalore,False
+V313,Date PLC Pvt Ltd,Cloud Infrastructure,1162502,2023-09-08,Net 30,27AAAAA1306A2Z6,Chennai,False
+V314,"Bala, Sachdev and Yogi Technologies",Marketing & Advertising,764910,2023-08-16,Net 30,27AAAAA1275A4Z2,Hyderabad,False
+V315,Bir-Minhas Solutions,Security Services,228167,2025-03-11,Net 30,27AAAAA8231A7Z2,Bangalore,False
+V316,Handa Group Services,Software Licensing,154359,2024-01-25,Net 60,27AAAAA4838A4Z3,Mumbai,False
+V317,Barad-Ganesan Technologies,Security Services,939223,2024-01-15,Net 45,27AAAAA5461A8Z8,Pune,False
+V318,Chakrabarti-Sen Technologies,Legal Services,622872,2024-06-03,Net 30,27AAAAA1138A9Z4,Pune,False
+V319,Samra and Sons Solutions,IT Services,951594,2025-04-22,Net 30,27AAAAA5352A5Z3,Hyderabad,False
+V320,Kanda-Krishnamurthy Technologies,Logistics & Supply Chain,1155060,2024-06-22,Net 60,27AAAAA0787A0Z8,Hyderabad,False
+V321,Suresh-Murty India,Cloud Infrastructure,878927,2024-05-08,Net 60,27AAAAA1021A6Z6,Mumbai,False
+V322,"Soni, Barad and Palla India",Cloud Infrastructure,682122,2025-10-31,Net 30,27AAAAA2242A5Z5,Bangalore,False
+V323,"Natt, Bhavsar and Padmanabhan Solutions",Security Services,738122,2026-01-04,Net 30,27AAAAA0123A3Z1,Mumbai,False
+V324,Sangha-Pillay Technologies,Legal Services,418458,2023-12-23,Net 30,27AAAAA6415A1Z1,Chennai,False
+V325,"Kata, Chokshi and Ram India",Accounting & Finance,1099126,2024-11-03,Net 60,27AAAAA6918A1Z8,Delhi,False
+V326,Vyas-Khosla Pvt Ltd,HR & Payroll,882718,2026-01-31,Net 60,27AAAAA7373A3Z7,Mumbai,False
+V327,"Roy, Kashyap and Babu Pvt Ltd",Marketing & Advertising,1014174,2024-05-21,Net 30,27AAAAA7904A9Z8,Hyderabad,False
+V328,"Mangat, Rajan and Goel Technologies",Logistics & Supply Chain,898136,2023-11-18,Net 60,27AAAAA2536A6Z6,Delhi,False
+V329,"Wali, Mukherjee and Rai Solutions",Marketing & Advertising,291536,2023-06-29,Net 45,27AAAAA0735A1Z2,Mumbai,False
+V330,Mital Group India,HR & Payroll,1014893,2024-09-15,Net 60,27AAAAA5442A0Z0,Hyderabad,False
+V331,Pradhan Ltd Technologies,IT Services,272011,2024-06-20,Net 30,27AAAAA3903A0Z1,Chennai,False
+V332,"Sem, Edwin and Kale Technologies",Logistics & Supply Chain,1148829,2024-05-03,Net 30,27AAAAA6396A3Z5,Chennai,False
+V333,Sunder-Sani Solutions,Security Services,514670,2024-04-12,Net 45,27AAAAA0731A9Z6,Bangalore,False
+V334,Goda LLC Services,IT Services,289131,2025-12-08,Net 60,27AAAAA2621A0Z4,Pune,False
+V335,Dasgupta-Sangha Solutions,Facility Management,786309,2025-07-06,Net 60,27AAAAA2327A7Z0,Delhi,False
+V336,"Ramaswamy, Varughese and Narang India",Software Licensing,265596,2023-08-24,Net 30,27AAAAA7737A1Z5,Hyderabad,False
+V337,Merchant Inc India,Facility Management,370591,2024-11-04,Net 60,27AAAAA6560A5Z4,Mumbai,False
+V338,"Ratta, Balan and Sagar Technologies",Software Licensing,1022980,2024-04-22,Net 60,27AAAAA5780A3Z9,Pune,False
+V339,Peri-Borde Services,Legal Services,727816,2024-03-26,Net 60,27AAAAA5468A6Z7,Hyderabad,False
+V340,"Suresh, Sachar and Jha Technologies",Software Licensing,193206,2025-03-10,Net 45,27AAAAA9770A1Z6,Chennai,False
+V341,"Gole, Chander and Mani Solutions",Security Services,167801,2025-01-29,Net 45,27AAAAA9442A2Z2,Pune,False
+V342,Ramesh Group Solutions,IT Services,1018344,2025-10-27,Net 45,27AAAAA6272A3Z8,Mumbai,False
+V343,Patil and Sons Solutions,Cloud Infrastructure,652044,2024-10-07,Net 30,27AAAAA4097A9Z0,Delhi,False
+V344,"Arora, Patil and Loke Services",IT Services,1113398,2024-01-02,Net 45,27AAAAA3998A7Z3,Chennai,False
+V345,Chadha PLC Services,Logistics & Supply Chain,136030,2025-06-13,Net 45,27AAAAA8925A8Z4,Pune,False
+V346,Guha-Konda Solutions,Facility Management,1047466,2024-08-12,Net 60,27AAAAA1693A9Z3,Bangalore,False
+V347,Kant-Chopra Technologies,Cloud Infrastructure,267059,2023-06-18,Net 45,27AAAAA3397A5Z3,Delhi,False
+V348,"Golla, Bhandari and Char Services",IT Services,411882,2023-03-31,Net 30,27AAAAA2546A1Z9,Bangalore,False
+V349,Date-Kakar Technologies,Legal Services,1149051,2024-10-29,Net 60,27AAAAA8705A8Z0,Pune,False
+V350,"Gill, Pandit and Sarkar Solutions",Software Licensing,831927,2023-08-30,Net 45,27AAAAA3534A5Z3,Chennai,False
+V351,Chandran-Karnik Solutions,Marketing & Advertising,159818,2024-07-09,Net 60,27AAAAA2431A3Z2,Delhi,False
+V352,Borra-Kapadia Pvt Ltd,HR & Payroll,741411,2024-06-11,Net 30,27AAAAA6788A9Z9,Pune,False
+V353,Palan-Mistry Solutions,Marketing & Advertising,578473,2023-11-09,Net 60,27AAAAA3705A6Z0,Delhi,False
+V354,Wali Inc India,Logistics & Supply Chain,749110,2023-10-21,Net 30,27AAAAA3616A2Z6,Pune,False
+V355,Wable-Kurian Solutions,Software Licensing,700603,2024-03-18,Net 60,27AAAAA1830A2Z9,Delhi,False
+V356,Borra and Sons India,Marketing & Advertising,227668,2024-05-27,Net 45,27AAAAA7283A4Z9,Pune,False
+V357,"Dora, De and Gola Solutions",Marketing & Advertising,318002,2026-01-04,Net 60,27AAAAA0688A3Z3,Delhi,False
+V358,Chander and Sons Pvt Ltd,Accounting & Finance,937947,2023-12-31,Net 60,27AAAAA5664A7Z8,Hyderabad,False
+V359,Biswas-Nair Solutions,Cloud Infrastructure,697739,2023-09-05,Net 30,27AAAAA2728A5Z1,Bangalore,False
+V360,"Setty, Agate and Subramaniam Technologies",HR & Payroll,452664,2025-12-10,Net 30,27AAAAA4812A0Z5,Bangalore,False
+V361,Luthra-Sundaram Pvt Ltd,Software Licensing,670320,2026-01-31,Net 30,27AAAAA0021A4Z0,Pune,False
+V362,Dhar-Dora Services,Accounting & Finance,129162,2024-07-29,Net 60,27AAAAA1978A9Z5,Hyderabad,False
+V363,"Tandon, Deshpande and Varkey India",Logistics & Supply Chain,840038,2025-12-12,Net 30,27AAAAA7860A6Z0,Bangalore,False
+V364,"Sehgal, Dani and Shanker Services",Software Licensing,397160,2024-11-06,Net 60,27AAAAA1335A3Z6,Chennai,False
+V365,Hans and Sons Technologies,Cloud Infrastructure,813991,2024-08-24,Net 60,27AAAAA5621A7Z8,Delhi,False
+V366,Kari Ltd Technologies,Facility Management,647537,2023-07-31,Net 60,27AAAAA1096A6Z5,Chennai,False
+V367,Char-Prabhu Services,Facility Management,551572,2024-05-29,Net 45,27AAAAA6694A6Z2,Chennai,False
+V368,Nanda-Mallick Solutions,Facility Management,973999,2024-03-03,Net 45,27AAAAA9152A9Z1,Hyderabad,False
+V369,Mandal Group Services,Marketing & Advertising,1156163,2024-02-13,Net 45,27AAAAA7806A9Z8,Bangalore,False
+V370,Panchal-Nori Services,Facility Management,340242,2026-01-19,Net 45,27AAAAA4641A0Z7,Mumbai,False
+V371,"Varkey, Varughese and Sengupta Solutions",Legal Services,265146,2025-05-16,Net 60,27AAAAA2368A9Z0,Pune,False
+V372,"Baria, Kadakia and Deep Solutions",IT Services,225898,2024-02-20,Net 30,27AAAAA4669A7Z1,Hyderabad,False
+V373,"Sridhar, Devan and Kuruvilla Services",Legal Services,359012,2024-10-29,Net 45,27AAAAA1519A7Z8,Mumbai,False
+V374,Date Inc Technologies,Facility Management,783133,2024-01-27,Net 30,27AAAAA8111A3Z1,Chennai,False
+V375,"Shanker, Lalla and Karpe Technologies",Cloud Infrastructure,1102785,2026-01-04,Net 45,27AAAAA5102A6Z8,Bangalore,False
+V376,"Wali, Khurana and Sarma Pvt Ltd",Marketing & Advertising,836248,2026-03-17,Net 30,27AAAAA3122A6Z2,Mumbai,False
+V377,Mani-Bhakta Pvt Ltd,HR & Payroll,753154,2026-01-24,Net 30,27AAAAA7483A8Z3,Bangalore,False
+V378,"Banik, Raman and Mistry Solutions",Cloud Infrastructure,1040809,2025-06-11,Net 60,27AAAAA1453A7Z6,Bangalore,False
+V379,"Loke, Pandit and Bera Technologies",Legal Services,61012,2024-04-14,Net 30,27AAAAA5544A8Z5,Mumbai,False
+V380,Agate-Babu India,Security Services,363565,2023-09-17,Net 60,27AAAAA6587A3Z2,Delhi,False
+V381,Sunder-Kibe Services,Logistics & Supply Chain,937629,2023-06-02,Net 30,27AAAAA6521A5Z2,Hyderabad,False
+V382,Sankar-Devi Solutions,Facility Management,305534,2025-12-21,Net 30,27AAAAA9147A4Z3,Bangalore,False
+V383,Madan LLC Services,Marketing & Advertising,1008636,2025-12-23,Net 30,27AAAAA1516A9Z8,Mumbai,False
+V384,Dara-Kant Services,Legal Services,1174186,2024-08-29,Net 30,27AAAAA9850A8Z5,Delhi,False
+V385,Suri-Karnik Services,Accounting & Finance,557381,2025-05-23,Net 60,27AAAAA5090A7Z2,Bangalore,False
+V386,Sha-Grover Technologies,Security Services,53280,2026-01-21,Net 60,27AAAAA4839A6Z4,Hyderabad,False
+V387,Kadakia-Koshy Services,Facility Management,923605,2025-02-18,Net 30,27AAAAA3152A8Z3,Delhi,False
+V388,"Rege, Baria and Zacharia Services",IT Services,806240,2023-09-05,Net 30,27AAAAA9004A2Z9,Pune,False
+V389,Purohit LLC Services,Accounting & Finance,1114561,2025-05-25,Net 60,27AAAAA7094A3Z8,Mumbai,False
+V390,"Shan, Sachdeva and Pau Technologies",Marketing & Advertising,141298,2025-10-05,Net 60,27AAAAA0143A7Z9,Chennai,False
+V391,Pingle Inc Solutions,HR & Payroll,84062,2025-04-10,Net 45,27AAAAA5386A1Z0,Mumbai,False
+V392,Dasgupta-Rana India,HR & Payroll,267398,2024-10-25,Net 60,27AAAAA6284A7Z7,Delhi,False
+V393,"Divan, Mander and Taneja India",HR & Payroll,142978,2023-11-13,Net 45,27AAAAA6872A2Z2,Pune,False
+V394,"Deep, Vyas and Thaker India",HR & Payroll,1024384,2023-04-18,Net 60,27AAAAA0316A1Z3,Chennai,False
+V395,Bal Ltd India,Software Licensing,182331,2025-02-18,Net 60,27AAAAA7740A7Z4,Chennai,False
+V396,Pal-Subramaniam Solutions,Cloud Infrastructure,472766,2023-03-31,Net 30,27AAAAA3826A2Z9,Bangalore,False
+V397,Pal-Rau Solutions,Cloud Infrastructure,700276,2023-10-19,Net 60,27AAAAA5175A7Z2,Chennai,False
+V398,"Buch, Verma and Chopra Technologies",Accounting & Finance,581237,2023-08-07,Net 30,27AAAAA8349A7Z5,Delhi,False
+V399,"Kannan, Shroff and Mander Solutions",Facility Management,798629,2023-11-30,Net 30,27AAAAA7605A6Z2,Delhi,False
+V400,Varughese PLC Solutions,HR & Payroll,311043,2025-10-26,Net 45,27AAAAA2869A4Z6,Chennai,False
+V401,Walla-Chahal Technologies,Marketing & Advertising,860852,2023-06-11,Net 45,27AAAAA7495A3Z6,Bangalore,False
+V402,Chokshi Ltd Technologies,Legal Services,820382,2026-01-24,Net 60,27AAAAA3391A5Z7,Hyderabad,False
+V403,Palla-Balakrishnan Technologies,IT Services,215521,2026-01-10,Net 45,27AAAAA2126A7Z2,Pune,False
+V404,Mani-Aurora Services,Software Licensing,666072,2023-05-15,Net 45,27AAAAA2782A4Z6,Mumbai,False
+V405,"Mahal, Murthy and Bassi Solutions",IT Services,670001,2024-01-18,Net 45,27AAAAA2870A8Z9,Chennai,False
+V406,Agate-Sangha Technologies,Logistics & Supply Chain,399479,2024-01-25,Net 60,27AAAAA3974A7Z1,Chennai,False
+V407,Sampath Group Technologies,HR & Payroll,138825,2025-05-12,Net 60,27AAAAA2103A2Z4,Hyderabad,False
+V408,"Nair, Rege and Gandhi Technologies",Logistics & Supply Chain,625784,2023-09-23,Net 60,27AAAAA2448A8Z9,Mumbai,False
+V409,Taneja-Virk Technologies,IT Services,811918,2026-02-28,Net 60,27AAAAA9912A3Z3,Delhi,False
+V410,Nagy and Sons Pvt Ltd,Software Licensing,349430,2025-09-27,Net 60,27AAAAA8653A0Z4,Delhi,False
+V411,"Tak, Shankar and Johal Pvt Ltd",Legal Services,314723,2023-11-16,Net 30,27AAAAA7691A0Z8,Bangalore,False
+V412,Shan-Parsa Solutions,HR & Payroll,852903,2024-04-24,Net 60,27AAAAA8466A1Z2,Mumbai,False
+V413,"Zacharia, Banik and Gandhi India",Logistics & Supply Chain,993556,2023-08-24,Net 45,27AAAAA6781A1Z3,Hyderabad,False
+V414,"Parmar, Patla and Hayer Pvt Ltd",Legal Services,338767,2024-05-27,Net 60,27AAAAA3387A0Z6,Hyderabad,False
+V415,Dass-Sawhney Solutions,Marketing & Advertising,634454,2024-12-15,Net 30,27AAAAA8743A7Z6,Mumbai,False
+V416,"Khurana, Suri and Chacko India",Cloud Infrastructure,1096571,2023-08-28,Net 60,27AAAAA1264A4Z7,Chennai,False
+V417,"Goswami, Kakar and Mitra Pvt Ltd",Accounting & Finance,598985,2023-12-01,Net 45,27AAAAA5744A7Z9,Delhi,False
+V418,Bala Ltd India,Legal Services,648898,2024-12-29,Net 60,27AAAAA0878A3Z4,Chennai,False
+V419,Sibal-De Pvt Ltd,Facility Management,334643,2025-09-02,Net 30,27AAAAA4476A4Z5,Chennai,False
+V420,Vaidya-Warrior Technologies,Software Licensing,234110,2024-04-07,Net 60,27AAAAA5245A5Z5,Hyderabad,False
+V421,"Rajagopal, Tella and Chokshi Pvt Ltd",HR & Payroll,1187015,2025-12-21,Net 45,27AAAAA4309A3Z7,Hyderabad,False
+V422,Vala-Narayan India,Software Licensing,808104,2023-08-24,Net 60,27AAAAA0435A7Z0,Bangalore,False
+V423,Chopra Inc India,IT Services,341245,2024-02-17,Net 30,27AAAAA4115A7Z3,Chennai,False
+V424,"Lad, Khatri and Walla Solutions",Cloud Infrastructure,823662,2023-04-17,Net 45,27AAAAA3265A9Z1,Pune,False
+V425,Deol-Khalsa Services,Software Licensing,230806,2025-11-27,Net 30,27AAAAA3386A3Z3,Hyderabad,False
+V426,Balasubramanian Group Technologies,Marketing & Advertising,1152463,2023-04-27,Net 45,27AAAAA7531A5Z7,Chennai,False
+V427,Natarajan-Barman Pvt Ltd,Logistics & Supply Chain,312829,2024-04-28,Net 45,27AAAAA7652A7Z4,Delhi,False
+V428,Raman-Ratta Technologies,IT Services,1026923,2023-05-07,Net 60,27AAAAA6306A8Z2,Pune,False
+V429,Bahri PLC India,HR & Payroll,431604,2024-05-01,Net 30,27AAAAA5362A8Z0,Chennai,False
+V430,Cheema-Dara Pvt Ltd,Accounting & Finance,310384,2024-08-24,Net 60,27AAAAA4507A9Z0,Bangalore,False
+V431,"Zachariah, Nagi and Hora India",Security Services,389669,2025-05-19,Net 45,27AAAAA6529A3Z7,Delhi,False
+V432,"Bir, Das and Sandhu Solutions",Facility Management,1138207,2025-08-22,Net 45,27AAAAA1636A3Z6,Mumbai,False
+V433,Deol Group India,Security Services,625565,2024-03-25,Net 30,27AAAAA6161A8Z7,Delhi,False
+V434,"Shukla, Narayan and Shenoy Services",Security Services,1168784,2024-04-14,Net 30,27AAAAA6248A1Z2,Pune,False
+V435,Char Ltd Services,Software Licensing,373368,2023-07-14,Net 30,27AAAAA0546A9Z0,Delhi,False
+V436,"Kunda, Kant and Apte Services",Logistics & Supply Chain,758039,2023-08-13,Net 60,27AAAAA6426A1Z3,Mumbai,False
+V437,Atwal-Prasad Pvt Ltd,Cloud Infrastructure,145340,2024-12-12,Net 60,27AAAAA9461A4Z6,Pune,False
+V438,"Nath, Sathe and Ahluwalia India",Security Services,923645,2025-10-23,Net 60,27AAAAA3346A0Z9,Delhi,False
+V439,Ghosh-Misra Technologies,Cloud Infrastructure,1194158,2024-07-25,Net 45,27AAAAA2776A2Z4,Delhi,False
+V440,Rai-Rana Technologies,Security Services,563546,2024-07-19,Net 60,27AAAAA9414A8Z3,Chennai,False
+V441,Bava-Narain Technologies,Security Services,203035,2023-09-12,Net 60,27AAAAA5295A7Z7,Mumbai,False
+V442,Upadhyay-Dayal Technologies,Software Licensing,921621,2023-08-06,Net 45,27AAAAA5044A1Z9,Chennai,False
+V443,Magar-Badami Solutions,Facility Management,351295,2024-04-25,Net 45,27AAAAA4977A7Z0,Delhi,False
+V444,Buch-Nagy Solutions,HR & Payroll,886169,2024-01-18,Net 30,27AAAAA0441A5Z9,Hyderabad,False
+V445,"Din, Anne and Palan Services",Accounting & Finance,272683,2025-01-02,Net 45,27AAAAA4748A7Z1,Bangalore,False
+V446,"Andra, Ghosh and Bhavsar Pvt Ltd",Legal Services,610928,2024-06-11,Net 45,27AAAAA6063A0Z5,Bangalore,False
+V447,"Mitter, Goswami and Garg Pvt Ltd",Software Licensing,156126,2024-05-08,Net 45,27AAAAA3809A8Z3,Chennai,False
+V448,"Pillay, Dora and Narang Technologies",Logistics & Supply Chain,570660,2025-05-31,Net 30,27AAAAA3814A6Z1,Hyderabad,False
+V449,Bains Group Solutions,Logistics & Supply Chain,448110,2023-09-27,Net 30,27AAAAA3636A7Z7,Chennai,False
+V450,Natt and Sons Technologies,Accounting & Finance,1095974,2024-07-29,Net 45,27AAAAA4353A3Z4,Chennai,False
+V451,Puri PLC Pvt Ltd,Cloud Infrastructure,874688,2025-06-01,Net 60,27AAAAA4756A7Z8,Chennai,False
+V452,Acharya-Minhas India,Facility Management,790074,2025-11-11,Net 30,27AAAAA0229A0Z1,Mumbai,False
+V453,"Narain, Modi and Mukhopadhyay Technologies",Security Services,1036892,2024-09-10,Net 45,27AAAAA8032A5Z6,Pune,False
+V454,Devan and Sons Pvt Ltd,Cloud Infrastructure,953721,2025-07-20,Net 30,27AAAAA8356A3Z3,Hyderabad,False
+V455,Thaker Inc Technologies,HR & Payroll,817426,2026-02-27,Net 30,27AAAAA6572A9Z0,Chennai,False
+V456,Kala Inc Services,Cloud Infrastructure,458221,2025-02-07,Net 45,27AAAAA5101A8Z6,Pune,False
+V457,"Bakshi, Dhillon and Date Pvt Ltd",Security Services,860232,2025-10-01,Net 60,27AAAAA4746A8Z4,Chennai,False
+V458,Chawla-Sibal Solutions,Accounting & Finance,299164,2025-11-03,Net 30,27AAAAA6812A6Z0,Mumbai,False
+V459,"Bava, Ravel and Singh Solutions",Marketing & Advertising,761113,2024-08-18,Net 60,27AAAAA0372A9Z1,Hyderabad,False
+V460,"Wagle, Anne and Chatterjee India",Software Licensing,1117707,2024-09-16,Net 45,27AAAAA1615A8Z7,Pune,False
+V461,"Rattan, Padmanabhan and Bansal Pvt Ltd",Cloud Infrastructure,131608,2024-03-13,Net 30,27AAAAA1512A6Z6,Delhi,False
+V462,"Ahluwalia, Arya and Loyal Technologies",HR & Payroll,1139119,2024-06-07,Net 45,27AAAAA5010A5Z1,Bangalore,False
+V463,"Mody, Raju and Sachdeva Services",Logistics & Supply Chain,343141,2025-10-25,Net 45,27AAAAA7466A0Z0,Pune,False
+V464,Borah-Choudhury India,HR & Payroll,874085,2024-04-10,Net 60,27AAAAA3217A0Z6,Delhi,False
+V465,"Muni, Tara and Ganguly Services",Security Services,755426,2024-03-05,Net 60,27AAAAA0908A8Z7,Pune,False
+V466,"Bhargava, Konda and Doctor Technologies",Accounting & Finance,678706,2025-07-24,Net 45,27AAAAA9972A6Z1,Mumbai,False
+V467,Narayanan-Raman Solutions,HR & Payroll,279857,2025-05-23,Net 45,27AAAAA7379A6Z8,Pune,False
+V468,Jaggi-Jain Pvt Ltd,Security Services,1045287,2025-04-08,Net 45,27AAAAA5145A4Z4,Delhi,False
+V469,"Sanghvi, Kota and Aurora Services",Logistics & Supply Chain,527192,2025-07-05,Net 60,27AAAAA2578A6Z2,Mumbai,False
+V470,Panchal Ltd Technologies,Logistics & Supply Chain,407589,2025-02-06,Net 60,27AAAAA8014A0Z5,Delhi,False
+V471,"Deshpande, Chhabra and Khalsa Technologies",Logistics & Supply Chain,359908,2024-03-26,Net 60,27AAAAA1205A4Z2,Bangalore,False
+V472,"Kibe, Bera and Butala Services",Cloud Infrastructure,280467,2025-10-29,Net 30,27AAAAA2513A5Z4,Mumbai,False
+V473,Buch Inc Solutions,Legal Services,928245,2023-09-03,Net 30,27AAAAA6917A4Z8,Chennai,False
+V474,Pai Inc Technologies,Facility Management,1102391,2024-12-27,Net 60,27AAAAA6777A7Z0,Chennai,False
+V475,Nazareth-Ahuja India,Cloud Infrastructure,1137757,2023-08-10,Net 30,27AAAAA7513A3Z5,Pune,False
+V476,Rai Group Technologies,HR & Payroll,1152005,2024-07-23,Net 45,27AAAAA3724A2Z3,Hyderabad,False
+V477,Loke-Chadha Technologies,Software Licensing,1168048,2025-04-15,Net 45,27AAAAA1441A8Z5,Pune,False
+V478,"Saraf, Kara and Master Solutions",HR & Payroll,1065399,2024-03-13,Net 30,27AAAAA7849A6Z2,Bangalore,False
+V479,Tiwari-Goswami Services,Security Services,675998,2023-10-19,Net 30,27AAAAA8215A2Z5,Hyderabad,False
+V480,Bali-Issac India,Security Services,1075513,2024-05-16,Net 45,27AAAAA4075A8Z8,Chennai,False
+V481,"Sen, Singhal and Kuruvilla Services",HR & Payroll,623482,2025-04-12,Net 45,27AAAAA5149A1Z9,Mumbai,False
+V482,Loyal-Vora Services,Logistics & Supply Chain,846276,2024-06-16,Net 45,27AAAAA9061A7Z1,Hyderabad,False
+V483,Prabhakar LLC Solutions,Software Licensing,138219,2025-05-14,Net 45,27AAAAA1400A1Z4,Delhi,False
+V484,Raval LLC Solutions,IT Services,977729,2023-09-06,Net 60,27AAAAA7031A2Z0,Hyderabad,False
+V485,Sibal Ltd India,Legal Services,473767,2025-02-02,Net 60,27AAAAA4290A6Z1,Hyderabad,False
+V486,Date LLC Solutions,Accounting & Finance,337882,2024-10-20,Net 30,27AAAAA3598A0Z2,Pune,False
+V487,"Thakur, Virk and Nadkarni India",Logistics & Supply Chain,558471,2025-05-09,Net 30,27AAAAA6131A7Z4,Delhi,False
+V488,Bhatia-Pandey India,Accounting & Finance,538293,2025-10-04,Net 30,27AAAAA6775A7Z6,Mumbai,False
+V489,"Bath, Sane and Choudhary Solutions",Marketing & Advertising,1040702,2024-08-31,Net 30,27AAAAA1204A0Z1,Delhi,False
+V490,Murthy-Sahota Pvt Ltd,Software Licensing,381226,2024-07-21,Net 45,27AAAAA6015A8Z8,Delhi,False
+V491,"Bhatia, Basak and Butala Technologies",Legal Services,468289,2024-08-21,Net 45,27AAAAA2539A3Z5,Hyderabad,False
+V492,Sabharwal-Vaidya Pvt Ltd,Security Services,237612,2026-02-08,Net 60,27AAAAA4387A2Z0,Pune,False
+V493,Wali-Goda Services,Facility Management,128220,2025-12-12,Net 30,27AAAAA4492A7Z5,Chennai,False
+V494,Shan-Sengupta Pvt Ltd,Software Licensing,882557,2025-10-12,Net 45,27AAAAA1286A5Z5,Bangalore,False
+V495,"Shah, Andra and Chauhan Pvt Ltd",Security Services,69434,2024-06-02,Net 45,27AAAAA3022A3Z4,Pune,False
+V496,Viswanathan Group Pvt Ltd,Logistics & Supply Chain,752634,2024-06-03,Net 45,27AAAAA2063A8Z1,Chennai,False
+V497,Karan-Bora Services,Accounting & Finance,1085809,2023-12-18,Net 30,27AAAAA6218A2Z9,Pune,False
+V498,Balan Ltd Solutions,Legal Services,454354,2025-10-29,Net 30,27AAAAA7938A4Z3,Hyderabad,False
+V499,Mahal LLC Technologies,Software Licensing,589523,2024-09-04,Net 60,27AAAAA6902A9Z1,Bangalore,False
+V500,Dalal-Bahri Solutions,Cloud Infrastructure,668710,2023-10-23,Net 60,27AAAAA3865A1Z1,Delhi,False

@@ -1,0 +1,105 @@
+month,service,cost_inr,region,anomaly_type,instances_count,utilization_pct
+2024-01,EC2 Compute,125224.24,ap-southeast-1,none,36,44.5
+2024-01,S3 Storage,138462.22,us-east-1,none,16,68.4
+2024-01,RDS Database,87572.76,ap-south-1,none,34,62.8
+2024-01,Lambda Functions,95062.33,us-east-1,none,88,75.6
+2024-01,CloudFront CDN,283178.29,us-east-1,none,40,82.6
+2024-01,EKS Kubernetes,87724.27,ap-south-1,none,94,57.5
+2024-01,ElastiCache,210133.45,ap-southeast-1,none,18,36.0
+2024-01,API Gateway,127020.52,ap-southeast-1,none,82,47.2
+2024-02,EC2 Compute,107502.37,us-east-1,none,20,93.3
+2024-02,S3 Storage,255003.46,ap-southeast-1,none,111,70.9
+2024-02,RDS Database,273770.83,us-east-1,none,13,33.0
+2024-02,Lambda Functions,210378.55,ap-south-1,none,114,45.1
+2024-02,CloudFront CDN,129765.48,ap-southeast-1,none,86,84.2
+2024-02,EKS Kubernetes,160985.78,ap-south-1,none,90,47.4
+2024-02,ElastiCache,119998.16,ap-south-1,none,73,77.4
+2024-02,API Gateway,164418.54,ap-southeast-1,none,86,74.7
+2024-03,EC2 Compute,202346.16,ap-south-1,none,34,83.4
+2024-03,S3 Storage,240537.4,ap-south-1,none,32,89.4
+2024-03,RDS Database,405770.59,ap-southeast-1,none,32,72.6
+2024-03,Lambda Functions,309538.51,us-east-1,none,63,39.3
+2024-03,CloudFront CDN,145442.36,us-east-1,none,73,47.1
+2024-03,EKS Kubernetes,380959.06,us-east-1,none,56,53.5
+2024-03,ElastiCache,152815.6,ap-south-1,none,101,33.1
+2024-03,API Gateway,127941.04,ap-south-1,none,106,74.2
+2024-04,EC2 Compute,358410.34,ap-southeast-1,none,81,94.7
+2024-04,S3 Storage,339638.68,us-east-1,none,115,91.3
+2024-04,RDS Database,145148.0,us-east-1,none,101,47.3
+2024-04,Lambda Functions,238277.98,ap-southeast-1,none,25,59.5
+2024-04,CloudFront CDN,238673.91,ap-south-1,none,69,89.3
+2024-04,EKS Kubernetes,252629.98,us-east-1,none,82,42.9
+2024-04,ElastiCache,290530.59,us-east-1,none,104,90.0
+2024-04,API Gateway,81888.03,ap-southeast-1,none,7,37.3
+2024-05,EC2 Compute,290780.16,ap-southeast-1,none,35,33.8
+2024-05,S3 Storage,411198.93,ap-south-1,none,98,61.6
+2024-05,RDS Database,127403.68,us-east-1,none,103,38.2
+2024-05,Lambda Functions,358603.09,ap-south-1,none,38,64.3
+2024-05,CloudFront CDN,391910.33,ap-south-1,none,74,79.1
+2024-05,EKS Kubernetes,193359.75,ap-southeast-1,none,90,72.2
+2024-05,ElastiCache,334441.3,ap-southeast-1,none,20,46.1
+2024-05,API Gateway,109890.34,us-east-1,none,75,45.0
+2024-06,EC2 Compute,176192.4,us-east-1,none,85,33.8
+2024-06,S3 Storage,124688.99,ap-southeast-1,none,14,63.4
+2024-06,RDS Database,233639.86,ap-south-1,none,74,38.6
+2024-06,Lambda Functions,385173.8,ap-south-1,none,105,60.7
+2024-06,CloudFront CDN,275248.26,ap-south-1,none,89,58.0
+2024-06,EKS Kubernetes,296706.21,us-east-1,none,11,73.8
+2024-06,ElastiCache,120034.41,us-east-1,none,48,82.0
+2024-06,API Gateway,130386.71,ap-south-1,none,73,59.2
+2024-07,EC2 Compute,282121.14,ap-southeast-1,none,36,86.8
+2024-07,S3 Storage,118163.56,us-east-1,none,17,33.3
+2024-07,RDS Database,387847.03,ap-south-1,none,101,85.2
+2024-07,Lambda Functions,164064.6,ap-southeast-1,none,32,86.2
+2024-07,CloudFront CDN,103313.32,ap-south-1,none,54,47.2
+2024-07,EKS Kubernetes,304873.01,us-east-1,none,98,94.7
+2024-07,ElastiCache,383405.22,ap-southeast-1,none,24,42.3
+2024-07,API Gateway,212335.77,us-east-1,none,99,65.2
+2024-08,EC2 Compute,222771.56,us-east-1,none,66,62.7
+2024-08,S3 Storage,333903.46,us-east-1,none,15,85.3
+2024-08,RDS Database,118127.37,us-east-1,none,115,45.3
+2024-08,Lambda Functions,155471.84,us-east-1,none,36,67.6
+2024-08,CloudFront CDN,103243.59,ap-southeast-1,none,89,67.9
+2024-08,EKS Kubernetes,341083.75,ap-southeast-1,none,31,73.5
+2024-08,ElastiCache,231932.14,ap-southeast-1,none,21,73.7
+2024-08,API Gateway,235254.02,ap-south-1,none,6,59.8
+2024-09,EC2 Compute,412394.1,ap-south-1,none,73,43.9
+2024-09,S3 Storage,202939.58,ap-southeast-1,none,117,34.5
+2024-09,RDS Database,202645.37,ap-south-1,none,61,84.2
+2024-09,Lambda Functions,243935.4,us-east-1,none,72,30.5
+2024-09,CloudFront CDN,355894.09,us-east-1,none,18,91.0
+2024-09,EKS Kubernetes,143321.81,ap-south-1,none,100,66.0
+2024-09,ElastiCache,213063.58,ap-south-1,none,96,52.3
+2024-09,API Gateway,218639.27,ap-southeast-1,none,120,89.0
+2024-10,EC2 Compute,149286.2,ap-south-1,autoscaling_misconfiguration,86,57.5
+2024-10,S3 Storage,310582.8,ap-south-1,provisioning_error,5,51.7
+2024-10,RDS Database,156016.35,us-east-1,normal_variance,38,40.5
+2024-10,Lambda Functions,327231.45,us-east-1,normal_variance,95,57.8
+2024-10,CloudFront CDN,89322.45,ap-south-1,normal_variance,14,91.4
+2024-10,EKS Kubernetes,221405.8,us-east-1,autoscaling_misconfiguration,9,84.2
+2024-10,ElastiCache,404672.1,us-east-1,normal_variance,23,57.9
+2024-10,API Gateway,107026.5,ap-southeast-1,normal_variance,51,88.4
+2024-11,EC2 Compute,108967.58,ap-south-1,none,92,46.2
+2024-11,S3 Storage,129974.72,us-east-1,none,118,86.9
+2024-11,RDS Database,174742.15,ap-south-1,none,115,40.6
+2024-11,Lambda Functions,186009.73,ap-south-1,none,27,77.9
+2024-11,CloudFront CDN,268514.27,ap-southeast-1,none,107,73.5
+2024-11,EKS Kubernetes,200311.66,us-east-1,none,18,54.9
+2024-11,ElastiCache,107495.52,ap-south-1,none,30,83.1
+2024-11,API Gateway,311669.12,ap-south-1,none,33,31.5
+2024-12,EC2 Compute,177574.29,ap-southeast-1,none,115,34.5
+2024-12,S3 Storage,219602.65,us-east-1,none,56,74.2
+2024-12,RDS Database,348935.6,ap-south-1,none,19,87.0
+2024-12,Lambda Functions,203003.99,ap-southeast-1,none,9,37.0
+2024-12,CloudFront CDN,298335.39,ap-southeast-1,none,60,69.4
+2024-12,EKS Kubernetes,321370.8,us-east-1,none,29,46.6
+2024-12,ElastiCache,277861.49,us-east-1,none,92,76.8
+2024-12,API Gateway,178325.28,ap-south-1,none,90,89.9
+2025-01,EC2 Compute,252574.33,ap-south-1,none,97,88.5
+2025-01,S3 Storage,332685.15,ap-southeast-1,none,46,56.2
+2025-01,RDS Database,237565.47,ap-south-1,none,58,73.2
+2025-01,Lambda Functions,288667.57,ap-south-1,none,83,67.0
+2025-01,CloudFront CDN,295708.16,ap-south-1,none,43,48.6
+2025-01,EKS Kubernetes,322838.29,us-east-1,none,88,50.9
+2025-01,ElastiCache,308018.13,ap-south-1,none,70,60.8
+2025-01,API Gateway,174335.11,ap-southeast-1,none,70,73.2
