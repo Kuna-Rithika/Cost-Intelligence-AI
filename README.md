@@ -1,5 +1,7 @@
 # Enterprise Cost Intelligence AI
 
+🚀 **Live Demo:** https://cost-intelligence-ai-snbn6cvvkkoekud5duk56c.streamlit.app/
+
 ## Setup
 1. Clone the repo
 2. Copy `.env.example` to `.env`
