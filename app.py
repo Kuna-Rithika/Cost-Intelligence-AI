@@ -6,8 +6,6 @@ import os
 from dotenv import load_dotenv
 load_dotenv()
 
-api_key = os.getenv("GROQ_API_KEY")
-
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 from utils import format_inr
 from agents.vendor_agent import run_vendor_agent, load_vendors, find_duplicate_vendors
@@ -22,12 +20,111 @@ st.set_page_config(
     layout="wide"
 )
 
-st.title("🤖 Enterprise Cost Intelligence & Autonomous Action")
-st.caption("AI-powered cost detection, diagnosis, and reinvestment planning for Indian enterprises")
+# ── CSS ───────────────────────────────────────────────────────
+st.markdown("""
+<style>
+.stApp {
+    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+    color: white;
+}
+[data-testid="metric-container"] {
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+    transition: transform 0.2s;
+}
+[data-testid="metric-container"]:hover {
+    transform: translateY(-4px);
+    border-color: rgba(120,80,255,0.5);
+}
+[data-testid="stMetricValue"] {
+    color: #a78bfa !important;
+    font-size: 1.8rem !important;
+    font-weight: 700 !important;
+}
+[data-testid="stMetricDelta"] { color: #34d399 !important; }
+.stTabs [data-baseweb="tab-list"] {
+    background: rgba(255,255,255,0.05);
+    border-radius: 12px;
+    padding: 4px;
+    gap: 4px;
+}
+.stTabs [data-baseweb="tab"] {
+    background: transparent;
+    border-radius: 10px;
+    color: rgba(255,255,255,0.6);
+    font-weight: 500;
+    padding: 8px 20px;
+}
+.stTabs [aria-selected="true"] {
+    background: linear-gradient(135deg, #7c3aed, #4f46e5) !important;
+    color: white !important;
+    box-shadow: 0 4px 15px rgba(124,58,237,0.4);
+}
+[data-testid="stSidebar"] {
+    background: rgba(15,12,41,0.95) !important;
+    border-right: 1px solid rgba(255,255,255,0.1);
+}
+.stButton > button {
+    background: linear-gradient(135deg, #7c3aed, #4f46e5) !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 12px !important;
+    padding: 12px 24px !important;
+    font-weight: 600 !important;
+    transition: all 0.3s !important;
+    box-shadow: 0 4px 15px rgba(124,58,237,0.4) !important;
+}
+.stButton > button:hover {
+    transform: translateY(-2px) !important;
+    box-shadow: 0 8px 25px rgba(124,58,237,0.6) !important;
+}
+h1 {
+    background: linear-gradient(135deg, #a78bfa, #60a5fa, #34d399);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.5rem !important;
+    font-weight: 800 !important;
+    text-align: center;
+}
+h2, h3 { color: #a78bfa !important; font-weight: 600 !important; }
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-thumb { background: #7c3aed; border-radius: 3px; }
+.main-header {
+    background: linear-gradient(135deg, rgba(124,58,237,0.2), rgba(79,70,229,0.2));
+    border: 1px solid rgba(124,58,237,0.3);
+    border-radius: 20px;
+    padding: 24px;
+    margin-bottom: 24px;
+    text-align: center;
+    box-shadow: 0 0 40px rgba(124,58,237,0.2);
+}
+.stat-card {
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 16px;
+    padding: 20px;
+    text-align: center;
+    margin: 8px 0;
+}
+</style>
+""", unsafe_allow_html=True)
 
-# ── SIDEBAR ──────────────────────────────────────────────────
-st.sidebar.header("Control Panel")
-st.sidebar.markdown("### Scenario Simulator")
+# ── HEADER ────────────────────────────────────────────────────
+st.markdown("""
+<div class="main-header">
+    <h1>🤖 Enterprise Cost Intelligence & Autonomous Action</h1>
+    <p style="color:rgba(255,255,255,0.6);margin:0;font-size:1.1rem;">
+        AI-powered cost detection, diagnosis, and reinvestment planning for Indian enterprises
+    </p>
+</div>
+""", unsafe_allow_html=True)
+
+# ── SIDEBAR ───────────────────────────────────────────────────
+st.sidebar.markdown("## ⚙️ Control Panel")
+st.sidebar.markdown("### 🎭 Scenario Simulator")
 
 scenario = st.sidebar.selectbox(
     "Select Business Scenario",
@@ -41,20 +138,23 @@ scenario = st.sidebar.selectbox(
     ]
 )
 
-spike_pct = st.sidebar.slider("Cloud Spike Severity %", 10, 100, 40)
-vendor_threshold = st.sidebar.slider("Vendor Similarity Threshold", 50, 95, 75)
-sla_days_left = st.sidebar.slider("SLA Days Remaining", 1, 7, 3)
+spike_pct = st.sidebar.slider("☁️ Cloud Spike Severity %", 10, 100, 40)
+vendor_threshold = st.sidebar.slider("🏢 Vendor Similarity Threshold", 50, 95, 75)
+sla_days_left = st.sidebar.slider("⏰ SLA Days Remaining", 1, 7, 3)
 
 run_button = st.sidebar.button("🚀 Run All Agents", type="primary", use_container_width=True)
 
 st.sidebar.markdown("---")
-st.sidebar.markdown("**Agent Status:**")
+st.sidebar.markdown("### 🤖 Agent Status")
 st.sidebar.markdown("✅ Vendor Duplicate Detection")
 st.sidebar.markdown("✅ Cloud Spend Anomaly")
 st.sidebar.markdown("✅ SLA Breach Prevention")
 st.sidebar.markdown("✅ Reinvestment Engine")
+st.sidebar.markdown("---")
+st.sidebar.markdown("### 📌 About")
+st.sidebar.markdown("Built for **Hackathon Track 3** — Cost Intelligence & Autonomous Action")
 
-# ── LOAD DATA DYNAMICALLY ─────────────────────────────────────
+# ── LOAD DATA ─────────────────────────────────────────────────
 vendors_df = load_vendors()
 duplicates = find_duplicate_vendors(vendors_df, threshold=vendor_threshold)
 
@@ -67,14 +167,12 @@ for d in duplicates:
         unique_savings.append(d["estimated_savings_inr"])
 vendor_savings = sum(unique_savings)
 
-# Regenerate cloud data with spike severity from slider
 cloud_df = gen_cloud(spike_multiplier=1 + spike_pct / 100)
 cloud_df.to_csv("data/cloud_costs.csv", index=False)
 cloud_df = load_cloud_costs()
 anomaly = detect_anomaly(cloud_df)
 cloud_savings = max(0, anomaly["latest_cost"] - anomaly["previous_cost"])
 
-# SLA data with dynamic days remaining
 tasks_df = pd.read_csv("data/sla_tasks.csv")
 today = pd.Timestamp.today().normalize()
 
@@ -92,22 +190,38 @@ tasks_df.to_csv("data/sla_tasks.csv", index=False)
 tasks_df = load_tasks()
 risk = assess_sla_risk(tasks_df)
 sla_savings = risk["total_penalty_inr"]
-
 total_impact = vendor_savings + cloud_savings + sla_savings
 
-# ── METRICS ROW ───────────────────────────────────────────────
-st.subheader("📊 Live Financial Impact")
+# ── METRICS ───────────────────────────────────────────────────
+st.markdown("### 📊 Live Financial Impact Dashboard")
 col1, col2, col3, col4 = st.columns(4)
 with col1:
-    st.metric("Vendor Savings", format_inr(vendor_savings), "per year")
+    st.metric("🏢 Vendor Savings", format_inr(vendor_savings), "per year")
 with col2:
-    st.metric("Cloud Recovery", format_inr(cloud_savings), f"{anomaly['change_pct']}% spike")
+    st.metric("☁️ Cloud Recovery", format_inr(cloud_savings), f"{anomaly['change_pct']}% spike")
 with col3:
-    st.metric("SLA Penalty Avoided", format_inr(sla_savings), f"{risk['total_at_risk']} tasks at risk")
+    st.metric("⏰ SLA Penalty Avoided", format_inr(sla_savings), f"{risk['total_at_risk']} tasks at risk")
 with col4:
-    st.metric("Total Impact", format_inr(total_impact), "🎯 Annual savings")
+    st.metric("💰 Total Impact", format_inr(total_impact), "🎯 Annual savings")
 
 st.markdown("---")
+
+# ── AGENTIC LOOP VISUAL ───────────────────────────────────────
+st.markdown("""
+<div style="display:flex;justify-content:center;align-items:center;gap:8px;
+    background:rgba(255,255,255,0.03);border-radius:16px;padding:16px;margin-bottom:20px;
+    border:1px solid rgba(255,255,255,0.08);">
+    <span style="background:rgba(124,58,237,0.3);border-radius:8px;padding:8px 16px;color:#a78bfa;font-weight:600;">📡 Detect</span>
+    <span style="color:rgba(255,255,255,0.3);font-size:1.5rem;">→</span>
+    <span style="background:rgba(79,70,229,0.3);border-radius:8px;padding:8px 16px;color:#818cf8;font-weight:600;">🔍 Diagnose</span>
+    <span style="color:rgba(255,255,255,0.3);font-size:1.5rem;">→</span>
+    <span style="background:rgba(16,185,129,0.3);border-radius:8px;padding:8px 16px;color:#34d399;font-weight:600;">⚡ Decide</span>
+    <span style="color:rgba(255,255,255,0.3);font-size:1.5rem;">→</span>
+    <span style="background:rgba(245,158,11,0.3);border-radius:8px;padding:8px 16px;color:#fbbf24;font-weight:600;">🎯 Act</span>
+    <span style="color:rgba(255,255,255,0.3);font-size:1.5rem;">→</span>
+    <span style="background:rgba(239,68,68,0.3);border-radius:8px;padding:8px 16px;color:#f87171;font-weight:600;">💡 Reinvest</span>
+</div>
+""", unsafe_allow_html=True)
 
 # ── TABS ──────────────────────────────────────────────────────
 tab1, tab2, tab3, tab4 = st.tabs([
@@ -117,10 +231,10 @@ tab1, tab2, tab3, tab4 = st.tabs([
     "💡 Reinvestment Plan"
 ])
 
-# ── TAB 1 — VENDOR ────────────────────────────────────────────
+# ── TAB 1 ─────────────────────────────────────────────────────
 with tab1:
-    st.subheader("Duplicate Vendor Detection")
-    st.info(f"Similarity threshold: {vendor_threshold}% | Found {len(duplicates)} duplicate pairs")
+    st.subheader("🏢 Duplicate Vendor Detection")
+    st.info(f"🔍 Similarity threshold: {vendor_threshold}% | Found **{len(duplicates)}** duplicate pairs | Potential savings: **{format_inr(vendor_savings)}/year**")
 
     top_dups = duplicates[:15]
     if top_dups:
@@ -144,31 +258,42 @@ with tab1:
             x=list(cat_savings.keys()),
             y=[v / 100000 for v in cat_savings.values()],
             labels={"x": "Category", "y": "Savings (₹ Lakhs)"},
-            title="Savings Potential by Category",
+            title="💰 Savings Potential by Category",
             color=list(cat_savings.values()),
-            color_continuous_scale="Teal"
+            color_continuous_scale="Purples"
+        )
+        fig.update_layout(
+            paper_bgcolor="rgba(0,0,0,0)",
+            plot_bgcolor="rgba(0,0,0,0)",
+            font_color="white"
         )
         st.plotly_chart(fig, use_container_width=True)
 
     if run_button:
-        with st.spinner("Running Vendor Agent with AI..."):
+        with st.spinner("🤖 Running Vendor Agent with AI..."):
             result = run_vendor_agent()
-            st.success("Agent completed!")
-            st.markdown("**AI Action Plan:**")
+            st.success("✅ Agent completed!")
+            st.markdown("### 📋 AI Action Plan")
             st.markdown(result["action_plan"])
 
-# ── TAB 2 — CLOUD ─────────────────────────────────────────────
+# ── TAB 2 ─────────────────────────────────────────────────────
 with tab2:
-    st.subheader("Cloud Spend Anomaly Detection")
-    st.info(f"Simulated spike: {spike_pct}% | Detected spike month: {anomaly['latest_month']}")
+    st.subheader("☁️ Cloud Spend Anomaly Detection")
+    st.info(f"📈 Simulated spike: **{spike_pct}%** | Detected spike month: **{anomaly['latest_month']}** | Wasted: **{format_inr(cloud_savings)}**")
 
     monthly = cloud_df.groupby("month")["cost_inr"].sum().reset_index()
     monthly = monthly.sort_values("month").reset_index(drop=True)
 
     fig = px.line(
         monthly, x="month", y="cost_inr",
-        title="Monthly Cloud Spend (₹)",
-        markers=True
+        title="📊 Monthly Cloud Spend (₹)",
+        markers=True,
+        color_discrete_sequence=["#a78bfa"]
+    )
+    fig.update_layout(
+        paper_bgcolor="rgba(0,0,0,0)",
+        plot_bgcolor="rgba(0,0,0,0.2)",
+        font_color="white"
     )
 
     spike_month = anomaly["latest_month"]
@@ -179,47 +304,59 @@ with tab2:
             x0=spike_pos, x1=spike_pos,
             y0=0, y1=1,
             xref="x", yref="paper",
-            line=dict(color="red", dash="dash", width=2)
+            line=dict(color="#f87171", dash="dash", width=2)
         )
         fig.add_annotation(
             x=spike_pos, y=1,
             xref="x", yref="paper",
-            text=f"{anomaly['change_pct']}% Spike",
+            text=f"🚨 {anomaly['change_pct']}% Spike",
             showarrow=False,
-            font=dict(color="red")
+            font=dict(color="#f87171", size=13)
         )
 
     st.plotly_chart(fig, use_container_width=True)
 
     col1, col2 = st.columns(2)
     with col1:
-        st.error(f"**Anomaly:** {anomaly['change_pct']}% spike detected")
-        st.write(f"Previous month ({anomaly['previous_month']}): {format_inr(anomaly['previous_cost'])}")
-        st.write(f"Spike month ({anomaly['latest_month']}): {format_inr(anomaly['latest_cost'])}")
-        st.write(f"Wasted: {format_inr(cloud_savings)}")
+        st.error(f"🚨 **Anomaly:** {anomaly['change_pct']}% spike detected")
+        st.markdown(f"""
+        <div class="stat-card">
+            <p style="color:rgba(255,255,255,0.5);margin:0;">Previous month ({anomaly['previous_month']})</p>
+            <h3 style="color:#a78bfa;margin:4px 0;">{format_inr(anomaly['previous_cost'])}</h3>
+            <p style="color:rgba(255,255,255,0.5);margin:0;">Spike month ({anomaly['latest_month']})</p>
+            <h3 style="color:#f87171;margin:4px 0;">{format_inr(anomaly['latest_cost'])}</h3>
+            <p style="color:rgba(255,255,255,0.5);margin:0;">Wasted</p>
+            <h3 style="color:#34d399;margin:4px 0;">{format_inr(cloud_savings)}</h3>
+        </div>
+        """, unsafe_allow_html=True)
     with col2:
         service_cost = cloud_df[cloud_df["month"] == anomaly["latest_month"]].groupby("service")["cost_inr"].sum()
         fig2 = px.pie(
             values=service_cost.values,
             names=service_cost.index,
-            title="Cost Breakdown by Service"
+            title="🔧 Cost Breakdown by Service",
+            color_discrete_sequence=px.colors.sequential.Purples_r
+        )
+        fig2.update_layout(
+            paper_bgcolor="rgba(0,0,0,0)",
+            font_color="white"
         )
         st.plotly_chart(fig2, use_container_width=True)
 
     if run_button:
-        with st.spinner("Running Spend Agent with AI..."):
+        with st.spinner("🤖 Running Spend Agent with AI..."):
             result = run_spend_agent()
-            st.success("Agent completed!")
-            st.markdown("**AI Remediation Plan:**")
+            st.success("✅ Agent completed!")
+            st.markdown("### 🔧 AI Remediation Plan")
             st.markdown(result.get("remediation", ""))
 
-# ── TAB 3 — SLA ───────────────────────────────────────────────
+# ── TAB 3 ─────────────────────────────────────────────────────
 with tab3:
-    st.subheader("SLA Breach Prevention")
-    st.info(f"Days remaining: {sla_days_left} | At-risk tasks: {risk['total_at_risk']}")
+    st.subheader("⏰ SLA Breach Prevention")
+    st.info(f"📅 Days remaining: **{sla_days_left}** | At-risk tasks: **{risk['total_at_risk']}** | Penalty exposure: **{format_inr(sla_savings)}**")
 
     if risk["total_at_risk"] > 0:
-        st.error(f"⚠️ {risk['total_at_risk']} tasks at risk | Penalty exposure: {format_inr(sla_savings)}")
+        st.error(f"⚠️ **{risk['total_at_risk']} tasks at risk** — Penalty exposure: **{format_inr(sla_savings)}**")
 
         at_risk_df = risk["at_risk_tasks"][[
             "task_id", "task_name", "team", "completed_pct",
@@ -232,35 +369,56 @@ with tab3:
         team_data = tasks_df.groupby("team")["completed_pct"].mean().reset_index()
         fig = px.bar(
             team_data, x="team", y="completed_pct",
-            title="Average Task Completion by Team",
+            title="👥 Average Task Completion by Team",
             color="completed_pct",
             color_continuous_scale="RdYlGn"
+        )
+        fig.update_layout(
+            paper_bgcolor="rgba(0,0,0,0)",
+            plot_bgcolor="rgba(0,0,0,0.2)",
+            font_color="white"
         )
         st.plotly_chart(fig, use_container_width=True)
     else:
         st.success("✅ No SLA breach risk detected for current settings!")
 
     if run_button:
-        with st.spinner("Running SLA Agent with AI..."):
+        with st.spinner("🤖 Running SLA Agent with AI..."):
             result = run_sla_agent()
-            st.success("Agent completed!")
-            st.markdown("**AI Recovery Plan:**")
+            st.success("✅ Agent completed!")
+            st.markdown("### 🔄 AI Recovery Plan")
             st.markdown(result.get("recovery_plan", ""))
 
-# ── TAB 4 — REINVESTMENT ──────────────────────────────────────
+# ── TAB 4 ─────────────────────────────────────────────────────
 with tab4:
     st.subheader("💡 Smart Reinvestment Engine")
-    st.caption("Unique feature — AI tells you WHERE to invest the money you saved")
+    st.markdown("""
+    <div style="background:linear-gradient(135deg,rgba(124,58,237,0.2),rgba(16,185,129,0.2));
+        border-radius:12px;padding:16px;margin-bottom:16px;
+        border:1px solid rgba(124,58,237,0.3);">
+        <p style="color:rgba(255,255,255,0.8);margin:0;font-size:1rem;">
+        🌟 <b>Unique Feature</b> — Most systems stop at finding waste.
+        Ours tells you exactly <b>where to reinvest the recovered money</b> for maximum ROI.
+        </p>
+    </div>
+    """, unsafe_allow_html=True)
 
     col1, col2, col3 = st.columns(3)
     with col1:
-        st.metric("From Vendor Savings", format_inr(vendor_savings))
+        st.metric("🏢 From Vendor Savings", format_inr(vendor_savings))
     with col2:
-        st.metric("From Cloud Recovery", format_inr(cloud_savings))
+        st.metric("☁️ From Cloud Recovery", format_inr(cloud_savings))
     with col3:
-        st.metric("From SLA Avoidance", format_inr(sla_savings))
+        st.metric("⏰ From SLA Avoidance", format_inr(sla_savings))
 
-    st.markdown(f"### Total Available for Reinvestment: {format_inr(total_impact)}")
+    st.markdown(f"""
+    <div style="text-align:center;background:rgba(124,58,237,0.15);border-radius:12px;
+        padding:20px;margin:16px 0;border:1px solid rgba(124,58,237,0.3);">
+        <p style="color:rgba(255,255,255,0.6);margin:0;">Total Available for Reinvestment</p>
+        <h2 style="color:#a78bfa;margin:8px 0;font-size:2.5rem;">{format_inr(total_impact)}</h2>
+        <p style="color:#34d399;margin:0;">per year</p>
+    </div>
+    """, unsafe_allow_html=True)
 
     allocation = {
         "Engineering & Talent": 0.30,
@@ -275,15 +433,19 @@ with tab4:
         fig = px.pie(
             values=[v * total_impact for v in allocation.values()],
             names=list(allocation.keys()),
-            title=f"Suggested Reinvestment of {format_inr(total_impact)}",
-            color_discrete_sequence=px.colors.qualitative.Set3
+            title=f"💰 Reinvestment Allocation",
+            color_discrete_sequence=["#7c3aed","#4f46e5","#0ea5e9","#10b981","#f59e0b"]
+        )
+        fig.update_layout(
+            paper_bgcolor="rgba(0,0,0,0)",
+            font_color="white"
         )
         st.plotly_chart(fig, use_container_width=True)
 
     with col2:
         alloc_df = pd.DataFrame([{
             "Area": k,
-            "Allocation %": f"{int(v*100)}%",
+            "Allocation": f"{int(v*100)}%",
             "Amount": format_inr(v * total_impact),
             "Expected ROI": "18-24%" if k == "Engineering & Talent"
                 else "12-18%" if k == "Cloud Infrastructure"
@@ -294,11 +456,21 @@ with tab4:
         st.dataframe(alloc_df, use_container_width=True)
 
     if run_button:
-        with st.spinner("Generating AI Reinvestment Plan..."):
+        with st.spinner("🤖 Generating AI Reinvestment Plan..."):
             result = run_reinvest_agent(
                 vendor_savings=vendor_savings,
                 cloud_savings=cloud_savings,
                 sla_savings=sla_savings
             )
-            st.success("Reinvestment plan ready!")
-            st.markdown("**AI Reinvestment Strategy:**")
+            st.success("✅ Reinvestment plan ready!")
+            st.markdown("### 📈 AI Reinvestment Strategy")
+            st.markdown(result["reinvestment_plan"])
+
+# ── FOOTER ────────────────────────────────────────────────────
+st.markdown("---")
+st.markdown("""
+<div style="text-align:center;color:rgba(255,255,255,0.3);padding:20px;">
+    Built with ❤️ for Hackathon Track 3 — Cost Intelligence & Autonomous Action<br>
+    Powered by Groq (Llama 3.3 70B) · LangGraph · Streamlit · Python
+</div>
+""", unsafe_allow_html=True)
