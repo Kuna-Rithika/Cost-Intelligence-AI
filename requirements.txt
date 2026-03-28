@@ -1,32 +1,10 @@
-<<<<<<< HEAD
-anthropic
-langgraph
-langchain
-langchain-anthropic
+groq
 pandas
 streamlit
 plotly
 rapidfuzz
-sentence-transformers
-chromadb
 python-dotenv
 faker
 fpdf2
 numpy
-=======
-anthropic
-langgraph
-langchain
-langchain-anthropic
-pandas
-streamlit
-plotly
-rapidfuzz
-sentence-transformers
-chromadb
-python-dotenv
-faker
-fpdf2
-numpy
->>>>>>> d3f3a69b20c5cc97bedaa85d0090b1f4905adf78
-scikit-learn
+scikit-learns
