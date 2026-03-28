@@ -1,10 +1,11 @@
 groq
 pandas
-streamlit
+streamlit==1.32.0
 plotly
 rapidfuzz
 python-dotenv
 faker
 fpdf2
 numpy
-scikit-learns
+scikit-learn
+altair==4.2.2
