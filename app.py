@@ -24,29 +24,30 @@ st.set_page_config(
 st.markdown("""
 <style>
 .stApp {
-    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
-    color: white;
+    background: linear-gradient(135deg, #f0f4ff, #faf5ff, #f0fdf4);
+    color: #1e1b4b;
 }
 [data-testid="metric-container"] {
-    background: rgba(255,255,255,0.05);
-    border: 1px solid rgba(255,255,255,0.1);
+    background: white;
+    border: 1px solid #e2e8f0;
     border-radius: 16px;
     padding: 20px;
-    box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
     transition: transform 0.2s;
 }
 [data-testid="metric-container"]:hover {
     transform: translateY(-4px);
-    border-color: rgba(120,80,255,0.5);
+    box-shadow: 0 8px 30px rgba(124,58,237,0.15);
+    border-color: #7c3aed;
 }
 [data-testid="stMetricValue"] {
-    color: #a78bfa !important;
+    color: #7c3aed !important;
     font-size: 1.8rem !important;
     font-weight: 700 !important;
 }
-[data-testid="stMetricDelta"] { color: #34d399 !important; }
+[data-testid="stMetricDelta"] { color: #059669 !important; }
 .stTabs [data-baseweb="tab-list"] {
-    background: rgba(255,255,255,0.05);
+    background: #f1f5f9;
     border-radius: 12px;
     padding: 4px;
     gap: 4px;
@@ -54,61 +55,62 @@ st.markdown("""
 .stTabs [data-baseweb="tab"] {
     background: transparent;
     border-radius: 10px;
-    color: rgba(255,255,255,0.6);
+    color: #64748b;
     font-weight: 500;
     padding: 8px 20px;
 }
 .stTabs [aria-selected="true"] {
     background: linear-gradient(135deg, #7c3aed, #4f46e5) !important;
     color: white !important;
-    box-shadow: 0 4px 15px rgba(124,58,237,0.4);
+    box-shadow: 0 4px 15px rgba(124,58,237,0.3);
 }
 [data-testid="stSidebar"] {
-    background: rgba(15,12,41,0.95) !important;
-    border-right: 1px solid rgba(255,255,255,0.1);
+    background: white !important;
+    border-right: 1px solid #e2e8f0;
 }
 .stButton > button {
     background: linear-gradient(135deg, #7c3aed, #4f46e5) !important;
     color: white !important;
     border: none !important;
     border-radius: 12px !important;
-    padding: 12px 24px !important;
     font-weight: 600 !important;
+    box-shadow: 0 4px 15px rgba(124,58,237,0.3) !important;
     transition: all 0.3s !important;
-    box-shadow: 0 4px 15px rgba(124,58,237,0.4) !important;
 }
 .stButton > button:hover {
     transform: translateY(-2px) !important;
-    box-shadow: 0 8px 25px rgba(124,58,237,0.6) !important;
+    box-shadow: 0 8px 25px rgba(124,58,237,0.5) !important;
 }
 h1 {
-    background: linear-gradient(135deg, #a78bfa, #60a5fa, #34d399);
+    background: linear-gradient(135deg, #7c3aed, #4f46e5, #0ea5e9);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 2.5rem !important;
     font-weight: 800 !important;
     text-align: center;
 }
-h2, h3 { color: #a78bfa !important; font-weight: 600 !important; }
-::-webkit-scrollbar { width: 6px; }
-::-webkit-scrollbar-thumb { background: #7c3aed; border-radius: 3px; }
+h2, h3 { color: #4f46e5 !important; font-weight: 600 !important; }
+p, li, label { color: #334155 !important; }
 .main-header {
-    background: linear-gradient(135deg, rgba(124,58,237,0.2), rgba(79,70,229,0.2));
-    border: 1px solid rgba(124,58,237,0.3);
+    background: white;
+    border: 1px solid #e2e8f0;
     border-radius: 20px;
     padding: 24px;
     margin-bottom: 24px;
     text-align: center;
-    box-shadow: 0 0 40px rgba(124,58,237,0.2);
+    box-shadow: 0 4px 24px rgba(124,58,237,0.1);
 }
 .stat-card {
-    background: rgba(255,255,255,0.05);
-    border: 1px solid rgba(255,255,255,0.1);
+    background: white;
+    border: 1px solid #e2e8f0;
     border-radius: 16px;
     padding: 20px;
     text-align: center;
-    margin: 8px 0;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.06);
 }
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #f1f5f9; }
+::-webkit-scrollbar-thumb { background: #7c3aed; border-radius: 3px; }
 </style>
 """, unsafe_allow_html=True)
 
@@ -116,7 +118,7 @@ h2, h3 { color: #a78bfa !important; font-weight: 600 !important; }
 st.markdown("""
 <div class="main-header">
     <h1>🤖 Enterprise Cost Intelligence & Autonomous Action</h1>
-    <p style="color:rgba(255,255,255,0.6);margin:0;font-size:1.1rem;">
+    <p style="color:#64748b;margin:0;font-size:1.1rem;">
         AI-powered cost detection, diagnosis, and reinvestment planning for Indian enterprises
     </p>
 </div>
@@ -209,17 +211,17 @@ st.markdown("---")
 # ── AGENTIC LOOP VISUAL ───────────────────────────────────────
 st.markdown("""
 <div style="display:flex;justify-content:center;align-items:center;gap:8px;
-    background:rgba(255,255,255,0.03);border-radius:16px;padding:16px;margin-bottom:20px;
-    border:1px solid rgba(255,255,255,0.08);">
-    <span style="background:rgba(124,58,237,0.3);border-radius:8px;padding:8px 16px;color:#a78bfa;font-weight:600;">📡 Detect</span>
-    <span style="color:rgba(255,255,255,0.3);font-size:1.5rem;">→</span>
-    <span style="background:rgba(79,70,229,0.3);border-radius:8px;padding:8px 16px;color:#818cf8;font-weight:600;">🔍 Diagnose</span>
-    <span style="color:rgba(255,255,255,0.3);font-size:1.5rem;">→</span>
-    <span style="background:rgba(16,185,129,0.3);border-radius:8px;padding:8px 16px;color:#34d399;font-weight:600;">⚡ Decide</span>
-    <span style="color:rgba(255,255,255,0.3);font-size:1.5rem;">→</span>
-    <span style="background:rgba(245,158,11,0.3);border-radius:8px;padding:8px 16px;color:#fbbf24;font-weight:600;">🎯 Act</span>
-    <span style="color:rgba(255,255,255,0.3);font-size:1.5rem;">→</span>
-    <span style="background:rgba(239,68,68,0.3);border-radius:8px;padding:8px 16px;color:#f87171;font-weight:600;">💡 Reinvest</span>
+    background:white;border-radius:16px;padding:16px;margin-bottom:20px;
+    border:1px solid #e2e8f0;box-shadow:0 2px 12px rgba(0,0,0,0.06);">
+    <span style="background:#ede9fe;border-radius:8px;padding:8px 16px;color:#7c3aed;font-weight:600;">📡 Detect</span>
+    <span style="color:#94a3b8;font-size:1.5rem;">→</span>
+    <span style="background:#e0e7ff;border-radius:8px;padding:8px 16px;color:#4f46e5;font-weight:600;">🔍 Diagnose</span>
+    <span style="color:#94a3b8;font-size:1.5rem;">→</span>
+    <span style="background:#d1fae5;border-radius:8px;padding:8px 16px;color:#059669;font-weight:600;">⚡ Decide</span>
+    <span style="color:#94a3b8;font-size:1.5rem;">→</span>
+    <span style="background:#fef3c7;border-radius:8px;padding:8px 16px;color:#d97706;font-weight:600;">🎯 Act</span>
+    <span style="color:#94a3b8;font-size:1.5rem;">→</span>
+    <span style="background:#fee2e2;border-radius:8px;padding:8px 16px;color:#dc2626;font-weight:600;">💡 Reinvest</span>
 </div>
 """, unsafe_allow_html=True)
 
@@ -291,10 +293,10 @@ with tab2:
         color_discrete_sequence=["#a78bfa"]
     )
     fig.update_layout(
-        paper_bgcolor="rgba(0,0,0,0)",
-        plot_bgcolor="rgba(0,0,0,0.2)",
-        font_color="white"
-    )
+    paper_bgcolor="white",
+    plot_bgcolor="#f8fafc",
+    font_color="#334155"
+)
 
     spike_month = anomaly["latest_month"]
     if spike_month in monthly["month"].values:
@@ -374,10 +376,10 @@ with tab3:
             color_continuous_scale="RdYlGn"
         )
         fig.update_layout(
-            paper_bgcolor="rgba(0,0,0,0)",
-            plot_bgcolor="rgba(0,0,0,0.2)",
-            font_color="white"
-        )
+    paper_bgcolor="white",
+    plot_bgcolor="#f8fafc",
+    font_color="#334155"
+)
         st.plotly_chart(fig, use_container_width=True)
     else:
         st.success("✅ No SLA breach risk detected for current settings!")
@@ -437,9 +439,10 @@ with tab4:
             color_discrete_sequence=["#7c3aed","#4f46e5","#0ea5e9","#10b981","#f59e0b"]
         )
         fig.update_layout(
-            paper_bgcolor="rgba(0,0,0,0)",
-            font_color="white"
-        )
+    paper_bgcolor="white",
+    plot_bgcolor="#f8fafc",
+    font_color="#334155"
+)
         st.plotly_chart(fig, use_container_width=True)
 
     with col2:
@@ -467,10 +470,9 @@ with tab4:
             st.markdown(result["reinvestment_plan"])
 
 # ── FOOTER ────────────────────────────────────────────────────
-st.markdown("---")
 st.markdown("""
-<div style="text-align:center;color:rgba(255,255,255,0.3);padding:20px;">
-    Built with ❤️ for Hackathon Track 3 — Cost Intelligence & Autonomous Action<br>
+<div style="text-align:center;color:#94a3b8;padding:20px;">
+    copyright © 2026 | Cost Intelligence & Autonomous Action<br>
     Powered by Groq (Llama 3.3 70B) · LangGraph · Streamlit · Python
 </div>
 """, unsafe_allow_html=True)
