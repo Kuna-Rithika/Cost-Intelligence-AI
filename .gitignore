@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .env
 __pycache__/
 *.pyc
@@ -6,3 +7,14 @@ __pycache__/
 *.pdf
 chroma_db/
 .chromadb/
+=======
+.env
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+*.csv
+*.pdf
+chroma_db/
+.chromadb/
+>>>>>>> d3f3a69b20c5cc97bedaa85d0090b1f4905adf78
