@@ -1,6 +1,10 @@
 import pandas as pd
 import sys
 import os
+from dotenv import load_dotenv
+load_dotenv()
+
+api_key = os.getenv("GROQ_API_KEY")
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from utils import ask_claude, format_inr, confidence_gate, print_section
 

@@ -3,6 +3,10 @@ import pandas as pd
 import plotly.express as px
 import sys
 import os
+from dotenv import load_dotenv
+load_dotenv()
+
+api_key = os.getenv("GROQ_API_KEY")
 
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 from utils import format_inr
